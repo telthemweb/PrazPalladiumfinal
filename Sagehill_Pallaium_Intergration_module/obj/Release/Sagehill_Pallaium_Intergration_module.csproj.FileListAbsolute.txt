@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\Sagehill\_sagehill\palladium-master\palladium-master\Sagehill_Pallaium_Intergration_module\obj\Release\Sagehill_Pallaium_Intergration_module.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Sagehill\_sagehill\palladium-master\palladium-master\Sagehill_Pallaium_Intergration_module\obj\Release\Sagehill_Pallaium_Intergration_module.MainForm.resources
+C:\Users\Administrator\Desktop\Sagehill\_sagehill\palladium-master\palladium-master\Sagehill_Pallaium_Intergration_module\obj\Release\Sagehill_Pallaium_Intergration_module.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Sagehill\_sagehill\palladium-master\palladium-master\Sagehill_Pallaium_Intergration_module\obj\Release\Sagehill_Pallaium_Intergration_module.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Sagehill\_sagehill\palladium-master\palladium-master\Sagehill_Pallaium_Intergration_module\obj\Release\Sagehill_Pallaium_Intergration_module.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Sagehill\_sagehill\palladium-master\palladium-master\Sagehill_Pallaium_Intergration_module\obj\Release\Sagehill_Pallaium_Intergration_module.sourcelink.json
