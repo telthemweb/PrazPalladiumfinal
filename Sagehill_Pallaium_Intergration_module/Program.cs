@@ -1,4 +1,5 @@
-﻿using Sagehill_Pallaium_Intergration_module.Tech;
+﻿using Sagehill_Pallaium_Intergration_module.Integration_testing_v2;
+using Sagehill_Pallaium_Intergration_module.Tech;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,7 +31,11 @@ namespace Sagehill_Pallaium_Intergration_module
 
             /// ***************************************************************************   
 
-            Application.Run(new MainForm());
+            //Application.Run(new MainForm());
+
+
+            //Integration Testing
+            Application.Run(new InterTestingPrazPalladium_v2());
         }
     }
 }

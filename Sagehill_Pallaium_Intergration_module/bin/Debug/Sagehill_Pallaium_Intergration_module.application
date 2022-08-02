@@ -4,17 +4,17 @@
   <description asmv2:publisher="Sagehill Business Solutions" co.v1:suiteName="Palladium and Mysql integration module" asmv2:product="Palladium and Mysql integration module" asmv2:supportUrl="https://www.sagehilltechnologies.com/#contact" co.v1:errorReportUrl="https://www.sagehilltechnologies.com/#contact" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" />
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
-    <framework targetVersion="4.6" profile="Full" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Sagehill_Pallaium_Intergration_module.exe.manifest" size="7664">
+    <dependentAssembly dependencyType="install" codebase="Sagehill_Pallaium_Intergration_module.exe.manifest" size="29678">
       <assemblyIdentity name="Sagehill_Pallaium_Intergration_module.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>3KrTVScqU2LwEPYCNU0tTiUpHGzN0toDla1pg2MewY8=</dsig:DigestValue>
+        <dsig:DigestValue>EdYftGbB834zvSfdWF5l2yj7S7heZ1zRc1JHlHcuX8c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

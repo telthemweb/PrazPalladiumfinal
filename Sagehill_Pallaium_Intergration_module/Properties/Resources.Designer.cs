@@ -71,21 +71,7 @@ namespace Sagehill_Pallaium_Intergration_module.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;
-        ///&lt;customers&gt;
-        ///  &lt;customer&gt;
-        ///    &lt;number&gt;PR1005519346&lt;/number&gt;
-        ///    &lt;name&gt;Rosetronic Investments t/a Rose Medical Supplies&lt;/name&gt;
-        ///    &lt;phone&gt;0772289792, 0714032224,0739913401&lt;/phone&gt;
-        ///    &lt;cell&gt;0772289792, 0714032224,0739913401&lt;/cell&gt;
-        ///    &lt;email&gt;rosemedicalsupplies@gmail.com&lt;/email&gt;
-        ///    &lt;street1&gt;29 Bath Road Avondale
-        ///Harare&lt;/street1&gt;
-        ///  &lt;/customer&gt;
-        ///  &lt;customer&gt;
-        ///    &lt;number&gt;PR10141719383&lt;/number&gt;
-        ///    &lt;name&gt;Shumba Construction&lt;/name&gt;
-        ///    &lt;phone&gt;077 [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to .
         /// </summary>
         internal static string Customers {
             get {
