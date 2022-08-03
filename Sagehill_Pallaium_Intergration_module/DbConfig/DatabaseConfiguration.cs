@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,6 +20,7 @@ namespace Sagehill_Pallaium_Intergration_module.DbConfig
         //Get connection string from App.Config file
         public string GetConnectionString(string key)
         {
+            
             return config.ConnectionStrings.ConnectionStrings[key].ConnectionString;
         }
 

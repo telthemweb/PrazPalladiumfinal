@@ -72,6 +72,9 @@
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevOne.Security.Cryptography.BCrypt, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\BCrypt.1.0.0.0\lib\DevOne.Security.Cryptography.BCrypt.dll</HintPath>
+    </Reference>
     <Reference Include="MassTransit, Version=8.0.5.0, Culture=neutral, PublicKeyToken=b8e0e9f2f1e657fa, processorArchitecture=MSIL">
       <HintPath>..\packages\MassTransit.8.0.5\lib\net461\MassTransit.dll</HintPath>
     </Reference>
@@ -211,7 +214,9 @@
     <Compile Include="ClassesPrazPalladiumDTO_v2\SupplierAccountPrazPalladiumDTO.cs" />
     <Compile Include="ClassesPrazPalladiumDTO_v2\SupplierInvPrazPalladiumDTO.cs" />
     <Compile Include="ClassesPrazPalladiumDTO_v2\TenderInvPrazPalladiumDTO.cs" />
+    <Compile Include="ClassesPrazPalladiumDTO_v2\WriteXML_V2\CustomerEntitiesComponent.cs" />
     <Compile Include="ClassesPrazPalladiumDTO_v2\WriteXML_V2\ReceiptComponent.cs" />
+    <Compile Include="ClassesPrazPalladiumDTO_v2\WriteXML_V2\SupplierAccountComponent.cs" />
     <Compile Include="ClassesPrazPalladiumDTO_v2\WriteXML_V2\TenderInvoiceComponent.cs" />
     <Compile Include="ClassesPrazPalladiumDTO_v2\WriteXML_V2\SuppliernvoiceComponent.cs" />
     <Compile Include="DbConfig\DatabaseConfiguration.cs" />
@@ -237,6 +242,24 @@
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MysqlConnectionClass.cs" />
+    <Compile Include="PalladiumDataPusher_v2\AsynDataPusher_v2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PalladiumDataPusher_v2\AsynDataPusher_v2.Designer.cs">
+      <DependentUpon>AsynDataPusher_v2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PalladiumDataPusher_v2\SagePostNow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PalladiumDataPusher_v2\SagePostNow.Designer.cs">
+      <DependentUpon>SagePostNow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PalladiumDataPusher_v2\SettingsPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PalladiumDataPusher_v2\SettingsPanel.Designer.cs">
+      <DependentUpon>SettingsPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="PalladiumIntergrationClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -266,6 +289,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PalladiumDataPusher_v2\AsynDataPusher_v2.resx">
+      <DependentUpon>AsynDataPusher_v2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PalladiumDataPusher_v2\SagePostNow.resx">
+      <DependentUpon>SagePostNow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PalladiumDataPusher_v2\SettingsPanel.resx">
+      <DependentUpon>SettingsPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

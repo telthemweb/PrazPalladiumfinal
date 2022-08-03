@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,8 +21,6 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesDb
 
 
         //Get connection string from App.Config file
-
-
         public string GetScheduleString(string key)
         {
             string result = "";
@@ -31,13 +30,27 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesDb
                 result = appSettings[key] ?? "0";
                 Console.WriteLine(result);
             }
-            catch (ConfigurationErrorsException)
+            catch (ConfigurationErrorsException ex)
             {
-                Console.WriteLine("Error reading app settings");
+                var CurrentDirectory = Directory.GetCurrentDirectory();
+                var errorFileName = DateTime.Now.ToString("ddMMyyyy") + "_customer_error_log.txt";
+                var erroFilePath = CurrentDirectory + @"/innoandbrendo/databaseerrorlogs/config/" + errorFileName;
+                using (StreamWriter writer = new StreamWriter(erroFilePath, true))
+                {
+                    writer.WriteLine("===============TODAY ERROR DETAILS   DATE:  " + DateTime.Now.ToLongDateString() + "===========================  TIME:  " + DateTime.Now.ToLongTimeString() + "\n\n\n");
+                    writer.WriteLine(ex.Message);
+                    writer.WriteLine("\n\n\n");
+                    writer.WriteLine("=======================ERROR DETAILS===========================\n\n\n");
+                    writer.WriteLine(ex.StackTrace);
+                    writer.WriteLine("\n\n\n");
+                    writer.WriteLine("===============POWERED BY SAGEHILL DEVELOPERS ===========================\n\n\n");
+
+                }
             }
             return result;
 
         }
+
 
         //Save connection string to App.config file
         public void SaveSchedularString(string sage_hour, string sage_minutes, string sage_seconds)
@@ -46,7 +59,6 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesDb
             schedularconfig.AppSettings.Settings.Add("sc_minutes", sage_minutes);
             schedularconfig.AppSettings.Settings.Add("sc_secs", sage_seconds);
             schedularconfig.Save(ConfigurationSaveMode.Modified);
-
             // Force a reload of a changed section.
             ConfigurationManager.RefreshSection("sagehillSchedular_module");
         }
@@ -56,7 +68,6 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesDb
         {
             try
             {
-
                 var settings = schedularconfig.AppSettings.Settings;
                 if (settings[key] == null)
                 {

@@ -1,4 +1,5 @@
-﻿using NLog;
+﻿using DevOne.Security.Cryptography.BCrypt;
+using NLog;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -52,6 +53,18 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesDb
         {
             var combined = Path.Combine(path1, path2);
             return combined;
+        }
+
+        public static string Telthemwe_Cypher_file(string filename)
+        {
+            string salt = BCryptHelper.GenerateSalt();
+            string hashedfile = BCryptHelper.HashPassword(filename, salt);
+            return hashedfile;
+        }
+
+        public static string Telthemwe_Decypher_file(string filename)
+        {
+            return filename;
         }
     }
 }

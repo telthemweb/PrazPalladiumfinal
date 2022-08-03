@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -90,8 +91,27 @@ namespace Sagehill_Pallaium_Intergration_module.DbConfig
 
         private void button4_Click(object sender, EventArgs e)
         {
-            DatabaseConfiguration setting = new DatabaseConfiguration();
-            MessageBox.Show(setting.GetConnectionString("cn"));
+            try
+            {
+                DatabaseConfiguration setting = new DatabaseConfiguration();
+                MessageBox.Show(setting.GetConnectionString("cn"));
+            }catch(Exception ex)
+            {
+                var dtCurrentDirectory = Directory.GetCurrentDirectory();
+                var dberrorFileName = DateTime.Now.ToString("ddMMyyyy") + "_database_configuration_error.txt";
+                var derroFilePath = dtCurrentDirectory + @"/innoandbrendo/databaseerrorlogs/config/" + dberrorFileName;
+                using (StreamWriter writer = new StreamWriter(derroFilePath, true))
+                {
+                    writer.WriteLine("===============TODAY DATABASE CONFIGURATION ERROR DETAILS   DATE:  " + DateTime.Now.ToLongDateString() + "===========================  TIME:  " + DateTime.Now.ToLongTimeString() + "\n\n\n");
+                    writer.WriteLine(ex.Message);
+                    writer.WriteLine("\n\n\n");
+                    writer.WriteLine("=======================ERROR DETAILS===========================\n\n\n");
+                    writer.WriteLine(ex.StackTrace);
+                    writer.WriteLine("\n\n\n");
+                    writer.WriteLine("===============POWERED BY SAGEHILL DEVELOPERS ===========================\n\n\n");
+
+                }
+            }
         }
     }
 }

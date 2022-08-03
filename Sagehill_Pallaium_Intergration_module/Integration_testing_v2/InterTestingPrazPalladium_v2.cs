@@ -1,4 +1,6 @@
-﻿using Sagehill_Pallaium_Intergration_module.ClassesDb;
+﻿using DevOne.Security.Cryptography.BCrypt;
+using Sagehill_Pallaium_Intergration_module.ClassesDb;
+using Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace Sagehill_Pallaium_Intergration_module.Integration_testing_v2
 {
@@ -29,6 +32,28 @@ namespace Sagehill_Pallaium_Intergration_module.Integration_testing_v2
             LoggerDataPrazPalludiumDTO loger = new LoggerDataPrazPalludiumDTO();
             var data = "waraarr";
             loger.LogErrorToLogFile(data);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            SagePostNow sg = new SagePostNow();
+            sg.Show();
+            this.Hide();
+        }
+
+        private void InterTestingPrazPalladium_v2_Load(object sender, EventArgs e)
+        {
+            var time = DateTime.Now.ToLongTimeString();
+            button4.Text = time;
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            string salt = BCryptHelper.GenerateSalt();
+            string passwordHash = BCryptHelper.HashPassword("phhdhdhdhdhhd", salt);
+            Console.WriteLine(passwordHash);
+            
         }
     }
 }

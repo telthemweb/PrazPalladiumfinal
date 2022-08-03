@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8" ?><documents success="0" total="1"><document><docNo>IN-TrP0000092</docNo><status>FAILED</status><errorMessage>Item Number: BM005 On Hand: 0.0000</errorMessage></document></documents>
+<?xml version="1.0" encoding="utf-8" ?><documents success="1" total="1"><document><docNo>IN-TrP0000092</docNo><status>SUCCESS</status><errorMessage></errorMessage></document></documents>

@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -66,10 +67,9 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2.Write
                 document.AppendChild(term);
 
 
-                try
-                {
+                
                     //This query will write All Lines
-                    string sqlInnerSql = "SELECT regnumber,invoicenumber,code,name,year, amount,invoicedate FROM supplier_invoices WHERE invoicenumber='" + row["invoicenumber"].ToString() + "'";
+                    string sqlInnerSql = "SELECT regnumber,invoicenumber,code,name,year, amount,invoicedate FROM supplier_invoices WHERE invoicenumber='" + row["newInvoice"].ToString() + "'";
                     DataTable dtsqlInnerSql = new DataTable();
                     dtsqlInnerSql = DatabasePrazPalladiumDTO.Retrieve(sqlInnerSql);
 
@@ -133,20 +133,21 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2.Write
 
                     //=======end of Inner for loop====
                     document.AppendChild(lines);
-                    documents.AppendChild(document);
-
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
-                    Console.WriteLine("======================TRACK ERROR==================================");
-                    Console.WriteLine(ex.StackTrace);
-                }
+                    documents.AppendChild(document); 
 
             }
             //outer loop
             doc.AppendChild(documents);
-            doc.Save("SupplierInvoices.xml");
+            doc.Save(@"palladium/SupplierInvoices.xml");
+            var CurrentDirectory = Directory.GetCurrentDirectory();
+            var errorFileName = DateTime.Now.ToString("ddMMyyyy") + "_supplierinvoices_transaction.txt";
+            var erroFilePath = CurrentDirectory + @"/innoandbrendo/portaldatatransactions/invoices/" + errorFileName;
+            using (StreamWriter writer = new StreamWriter(erroFilePath, true))
+            {
+                writer.WriteLine("======================  SUPPLIER INVOICES TRANSACTION FROM PORTAL   DATE:  " + DateTime.Now.ToLongDateString() + "===========================\n\n\n");
+                writer.WriteLine("Supplier Invoices Data have been pulled from Portal at:   " + DateTime.Now.ToShortTimeString() + "\n\n\n");
+                writer.WriteLine("======================POWERED BY SAGEHILL DEVELOPERS ===========================\n\n\n");
+            }
         }
     }
 }

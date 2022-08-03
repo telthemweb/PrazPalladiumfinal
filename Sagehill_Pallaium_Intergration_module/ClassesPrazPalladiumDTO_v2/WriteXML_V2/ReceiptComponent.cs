@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -47,15 +48,72 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2.Write
                     custNumber.InnerText = row["regnumber"].ToString();
                     docNo.InnerText = row["receiptnumber"].ToString();
                     docDate.InnerText = row["receiptdate"].ToString();
-                    string myTenderType = row["method"].ToString();
-                    string tender = "";
+                    string accounttype = row["type"].ToString();
+                   ;
 
 
-                    tenderType.InnerText = tender;
+                    tenderType.InnerText = row["method"].ToString();
+                    var accountNumber = "";
 
 
-                    //check for account
+                    //c account
 
+                    //Registrations and Renewals:              4010-0000      Registrations & Renewals
+                    //SPOC                                     4045-0000      SPOC Fees
+                    //Bid Establishment Fees:                  4015-0000      Bid Establishment Fees
+                    //Contract Fees:                           4005-0000      Contract Fees
+                    //Training Fees:                           4095-0000      Training Fees
+                    // Certification & Accreditation           4096-0000      Certification & Accreditation
+                    //Exhibitions & Partnerships:              4090-0000      Advertisements & Partnerships
+                    //Request for Exemptions:                  4040-0000      Exemption fees by Entities
+                    //Application to Conduct                   4025-0000      Class A Authority to Conduct
+                    //                                         4030-0000      Class B Authority to Conduct
+                    //                                         4035-0000      Class C Authority to Conduct
+                    //WBS                                      4075-0000      Whistle Blowing – Annual Subscriptions
+                    //                                         4080-0000      Whistle Blowing – PE Registrations
+
+
+                    if (accounttype == "CONTRACT FEE")
+                    {
+                        accountNumber = "4005-0000";
+                    }
+                    else if (accounttype == "SPOC")
+                    {
+                        accountNumber = "4045-0000";
+                    }
+
+                   
+                    else if (accounttype == "ESTABLISHMENT FEE")
+                    {
+                        //roomfor change
+                        accountNumber = "";
+                    }
+                    else if (accounttype == "SUPPLIER")
+                    {
+                        //roomfor change
+                        accountNumber = "";
+                    }
+
+                    else if (accounttype == "BIDBOND")
+                    {
+                        //roomfor change
+                        accountNumber = "";
+                    }
+                    else if (accounttype == "NONREFUNDABLE")
+                    {
+                        //roomfor change
+                        accountNumber = "";
+                    }
+                    else if (accounttype == "REFUNDABLE")
+                    {
+                        //roomfor change
+                        accountNumber = "";
+                    }
+                    else
+                    {
+                        //roomfor change
+                        accountNumber = "";
+                    }
 
 
                     intAccount.InnerText = accountNumber;
@@ -89,6 +147,17 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2.Write
                     receipts.AppendChild(receipt);
                 }
                 
+            }
+            doc.Save(@"palladium/Receipts.xml");
+            var CurrentDirectory = Directory.GetCurrentDirectory();
+            var errorFileName = DateTime.Now.ToString("ddMMyyyy") + "_receipts_transaction.txt";
+            var erroFilePath = CurrentDirectory + @"/innoandbrendo/portaldatatransactions/receipt/" + errorFileName;
+            using (StreamWriter writer = new StreamWriter(erroFilePath, true))
+            {
+                writer.WriteLine("======================  RECEIPTS TRANSACTION FROM PORTAL   DATE:  " + DateTime.Now.ToLongDateString() + "===========================\n\n\n");
+                writer.WriteLine("Receipts have been pulled from Portal at:   " + DateTime.Now.ToShortTimeString() + "\n\n\n");
+                writer.WriteLine("======================POWERED BY SAGEHILL DEVELOPERS ===========================\n\n\n");
+
             }
             //end of loop
 

@@ -3,6 +3,7 @@ using Sagehill_Pallaium_Intergration_module.DbConfig;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -92,8 +93,22 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesDb
                     return false;
                 }
             }
-            catch
+            catch (Exception ex)
             {
+                var CurrentDirectory = Directory.GetCurrentDirectory();
+                var errorFileName = DateTime.Now.ToString("ddMMyyyy") + "_database_transaction_error.txt";
+                var erroFilePath = CurrentDirectory + @"/innoandbrendo/databaseerrorlogs/" + errorFileName;
+                using (StreamWriter writer = new StreamWriter(erroFilePath, true))
+                {
+                    writer.WriteLine("===============TODAY ERROR DETAILS   DATE:  " + DateTime.Now.ToLongDateString() + "===========================  TIME:  " + DateTime.Now.ToLongTimeString() + "\n\n\n");
+                    writer.WriteLine(ex.Message);
+                    writer.WriteLine("\n\n\n");
+                    writer.WriteLine("=======================ERROR DETAILS===========================\n\n\n");
+                    writer.WriteLine(ex.StackTrace);
+                    writer.WriteLine("\n\n\n");
+                    writer.WriteLine("===============POWERED BY SAGEHILL DEVELOPERS ===========================\n\n\n");
+
+                }
                 return false;
             }
 
@@ -109,7 +124,7 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesDb
                 da.Fill(dt);
                 return dt;
             }
-            catch
+            catch(Exception ex)
             {
                 return null;
             }

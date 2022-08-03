@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -71,7 +72,7 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2.Write
 
                
                 //This query will write All Lines
-                string sqlInnerSql = "SELECT id,regnumber,invoicenumber,tendernumber,description,feetype,type,currency,year,amount,invoicedate FROM tender_invoices WHERE invoicenumber='" + row["invoicenumber"].ToString() + "'";
+                string sqlInnerSql = "SELECT id,regnumber,invoicenumber,tendernumber,description,feetype,type,currency,year,amount,invoicedate FROM tender_invoices WHERE invoicenumber='" + row["newInvoice"].ToString() + "'";
                 DataTable dtsqlInnerSql = new DataTable();
                 dtsqlInnerSql = DatabasePrazPalladiumDTO.Retrieve(sqlInnerSql);
 
@@ -142,14 +143,34 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2.Write
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex.Message);
-                    Console.WriteLine("======================TRACK ERROR==================================");
-                    Console.WriteLine(ex.StackTrace);
+                    var dtCurrentDirectory = Directory.GetCurrentDirectory();
+                    var dberrorFileName = DateTime.Now.ToString("ddMMyyyy") + "_database_transaction_error.txt";
+                    var derroFilePath = dtCurrentDirectory + @"/innoandbrendo/databaseerrorlogs/" + dberrorFileName;
+                    using (StreamWriter writer = new StreamWriter(derroFilePath, true))
+                    {
+                        writer.WriteLine("===============TODAY ERROR DETAILS   DATE:  " + DateTime.Now.ToLongDateString() + "===========================  TIME:  " + DateTime.Now.ToLongTimeString() + "\n\n\n");
+                        writer.WriteLine(ex.Message);
+                        writer.WriteLine("\n\n\n");
+                        writer.WriteLine("=======================ERROR DETAILS===========================\n\n\n");
+                        writer.WriteLine(ex.StackTrace);
+                        writer.WriteLine("\n\n\n");
+                        writer.WriteLine("===============POWERED BY SAGEHILL DEVELOPERS ===========================\n\n\n");
+
+                    }
                 }
             }//end of outer forloop
 
             doc.AppendChild(documents);
-            doc.Save("TenderInvoices.xml");
+            doc.Save(@"palladium/TenderInvoices.xml");
+            var CurrentDirectory = Directory.GetCurrentDirectory();
+            var errorFileName = DateTime.Now.ToString("ddMMyyyy") + "_tenderinvoices_transaction.txt";
+            var erroFilePath = CurrentDirectory + @"/innoandbrendo/portaldatatransactions/invoices/" + errorFileName;
+            using (StreamWriter writer = new StreamWriter(erroFilePath, true))
+            {
+                writer.WriteLine("======================  TENDER INVOICES TRANSACTION FROM PORTAL   DATE:  " + DateTime.Now.ToLongDateString() + "===========================\n\n\n");
+                writer.WriteLine("Tender Invoices  Data have been pulled from Portal at:     " + DateTime.Now.ToShortTimeString() + "\n\n\n");
+                writer.WriteLine("======================POWERED BY SAGEHILL DEVELOPERS ===========================\n\n\n");
+            }
         }
     }
 }

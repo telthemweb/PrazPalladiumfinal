@@ -196,6 +196,7 @@ C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergr
 C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\bin\Debug\Sagehill_Pallaium_Intergration_module.application
 C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\bin\Debug\Sagehill_Pallaium_Intergration_module.exe
 C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\bin\Debug\Sagehill_Pallaium_Intergration_module.pdb
+C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\bin\Debug\DevOne.Security.Cryptography.BCrypt.dll
 C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\bin\Debug\MassTransit.Abstractions.dll
 C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\bin\Debug\MassTransit.dll
 C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\bin\Debug\MassTransit.QuartzIntegration.dll
@@ -263,9 +264,11 @@ C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergr
 C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\bin\Debug\System.ValueTuple.xml
 C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\bin\Debug\TimeZoneConverter.xml
-C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\obj\Debug\Sagehill_Pallaium_Intergration_module.csproj.AssemblyReference.cache
 C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\obj\Debug\Sagehill_Pallaium_Intergration_module.DbConfig.DatabaseConfigurationwiz.resources
+C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\obj\Debug\Sagehill_Pallaium_Intergration_module.Integration_testing_v2.InterTestingPrazPalladium_v2.resources
 C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\obj\Debug\Sagehill_Pallaium_Intergration_module.MainForm.resources
+C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\obj\Debug\Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2.AsynDataPusher_v2.resources
+C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\obj\Debug\Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2.SagePostNow.resources
 C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\obj\Debug\Sagehill_Pallaium_Intergration_module.Properties.Resources.resources
 C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\obj\Debug\Sagehill_Pallaium_Intergration_module.Tech.About.resources
 C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\obj\Debug\Sagehill_Pallaium_Intergration_module.Tech.PostData.resources
@@ -278,4 +281,5 @@ C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergr
 C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\obj\Debug\Sagehill_Pallaium_Intergration_module.csproj.CopyComplete
 C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\obj\Debug\Sagehill_Pallaium_Intergration_module.exe
 C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\obj\Debug\Sagehill_Pallaium_Intergration_module.pdb
-C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\obj\Debug\Sagehill_Pallaium_Intergration_module.Integration_testing_v2.InterTestingPrazPalladium_v2.resources
+C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\obj\Debug\Sagehill_Pallaium_Intergration_module.csproj.AssemblyReference.cache
+C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\obj\Debug\Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2.SettingsPanel.resources

@@ -1,0 +1,46 @@
+===============TODAY ERROR DETAILS   DATE:  Wednesday, August 3, 2022===========================  TIME:  6:31:13 AM
+
+
+
+No settings could be found. Please use the Palladium Integration Configuration Tool to create settings.
+
+
+
+
+=======================ERROR DETAILS===========================
+
+
+
+   at PalladiumSoftware.Integration.Maintenance.ProcessCustomers(String settingName, String xmlString)
+   at Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2.CustomerPrazPalladiumEntitiesDTO.PostAllCustomerEntitestoPalladium(String filename) in C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\ClassesPrazPalladiumDTO_v2\CustomerPrazPalladiumEntitiesDTO.cs:line 80
+
+
+
+
+===============POWERED BY SAGEHILL DEVELOPERS ===========================
+
+
+
+===============TODAY ERROR DETAILS   DATE:  Wednesday, August 3, 2022===========================  TIME:  10:40:29 AM
+
+
+
+No settings could be found. Please use the Palladium Integration Configuration Tool to create settings.
+
+
+
+
+=======================ERROR DETAILS===========================
+
+
+
+   at PalladiumSoftware.Integration.Maintenance.ProcessCustomers(String settingName, String xmlString)
+   at Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2.CustomerPrazPalladiumEntitiesDTO.PostAllCustomerEntitestoPalladium(String filename) in C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\ClassesPrazPalladiumDTO_v2\CustomerPrazPalladiumEntitiesDTO.cs:line 91
+
+
+
+
+===============POWERED BY SAGEHILL DEVELOPERS ===========================
+
+
+
