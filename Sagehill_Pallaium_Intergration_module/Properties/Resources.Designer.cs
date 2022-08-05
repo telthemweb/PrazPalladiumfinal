@@ -71,15 +71,6 @@ namespace Sagehill_Pallaium_Intergration_module.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
-        /// </summary>
-        internal static string Customers {
-            get {
-                return ResourceManager.GetString("Customers", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap facebook {

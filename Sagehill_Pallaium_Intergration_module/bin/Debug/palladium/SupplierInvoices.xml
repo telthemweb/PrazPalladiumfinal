@@ -1,2 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<documents />
+<documents>
+  <document>
+    <docNo>2019122019579</docNo>
+    <docDate>8/5/2022 2:19:21 AM</docDate>
+    <currencyCode>ZWL</currencyCode>
+    <custNumber>PR1527479016</custNumber>
+    <shipTo>Procurement Regulatory Authority of Zimbabwe 9th Floor Pearl House 61 Samora Machel Avenue Harare</shipTo>
+    <reference>SUPPLIER INVOICE</reference>
+    <subTotal>1750</subTotal>
+    <discountPerc />
+    <tax />
+    <total>1750</total>
+    <salesName>Portal</salesName>
+    <additionalInfo>SUPPLIER_INVOICE</additionalInfo>
+    <term>COD</term>
+    <lines>
+      <line>
+        <lineNo>1</lineNo>
+        <partNumber>GC005</partNumber>
+        <partDesc />
+        <location>DEFAULT</location>
+        <qty>1</qty>
+        <unitOfMeasure>EA</unitOfMeasure>
+        <type />
+        <isTaxInclusive>False</isTaxInclusive>
+        <unitPrice>1750</unitPrice>
+        <taxCode />
+        <lineTotal>1750</lineTotal>
+        <binids>
+          <bin>
+            <bincode>DEFAULT</bincode>
+            <quantity>1</quantity>
+          </bin>
+        </binids>
+      </line>
+      <line>
+        <lineNo>2</lineNo>
+        <partNumber>GC006</partNumber>
+        <partDesc />
+        <location>DEFAULT</location>
+        <qty>1</qty>
+        <unitOfMeasure>EA</unitOfMeasure>
+        <type />
+        <isTaxInclusive>False</isTaxInclusive>
+        <unitPrice>1750</unitPrice>
+        <taxCode />
+        <lineTotal>1750</lineTotal>
+        <binids>
+          <bin>
+            <bincode>DEFAULT</bincode>
+            <quantity>1</quantity>
+          </bin>
+        </binids>
+      </line>
+    </lines>
+  </document>
+</documents>

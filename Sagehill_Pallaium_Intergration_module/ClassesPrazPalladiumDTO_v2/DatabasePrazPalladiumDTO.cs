@@ -107,7 +107,7 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesDb
                     writer.WriteLine(ex.StackTrace);
                     writer.WriteLine("\n\n\n");
                     writer.WriteLine("===============POWERED BY SAGEHILL DEVELOPERS ===========================\n\n\n");
-
+                    writer.Close();
                 }
                 return false;
             }
@@ -124,7 +124,7 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesDb
                 da.Fill(dt);
                 return dt;
             }
-            catch(Exception ex)
+            catch
             {
                 return null;
             }

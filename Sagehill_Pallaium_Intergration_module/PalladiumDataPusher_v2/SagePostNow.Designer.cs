@@ -29,6 +29,7 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SagePostNow));
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
@@ -49,8 +50,16 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             this.button11 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.stbProgress = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.timeLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.strLoading = new System.Windows.Forms.ToolStripStatusLabel();
+            this.lbProgresstask = new System.Windows.Forms.ToolStripProgressBar();
+            this.telthemwebTime = new System.Windows.Forms.Timer(this.components);
             this.groupBox4.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.stbProgress.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -334,11 +343,63 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // stbProgress
+            // 
+            this.stbProgress.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1,
+            this.toolStripStatusLabel4,
+            this.timeLabel,
+            this.strLoading,
+            this.lbProgresstask});
+            this.stbProgress.Location = new System.Drawing.Point(0, 394);
+            this.stbProgress.Name = "stbProgress";
+            this.stbProgress.Size = new System.Drawing.Size(690, 30);
+            this.stbProgress.TabIndex = 20;
+            this.stbProgress.Text = "StatusBAR";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(184, 25);
+            this.toolStripStatusLabel1.Text = "Developed by Sagehill Developers";
+            // 
+            // toolStripStatusLabel4
+            // 
+            this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
+            this.toolStripStatusLabel4.Size = new System.Drawing.Size(45, 25);
+            this.toolStripStatusLabel4.Text = "| Time: ";
+            // 
+            // timeLabel
+            // 
+            this.timeLabel.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
+            this.timeLabel.ForeColor = System.Drawing.Color.Green;
+            this.timeLabel.Name = "timeLabel";
+            this.timeLabel.Size = new System.Drawing.Size(0, 25);
+            // 
+            // strLoading
+            // 
+            this.strLoading.Name = "strLoading";
+            this.strLoading.Size = new System.Drawing.Size(128, 25);
+            this.strLoading.Text = "         |  Loading              ";
+            // 
+            // lbProgresstask
+            // 
+            this.lbProgresstask.MarqueeAnimationSpeed = 1500;
+            this.lbProgresstask.Name = "lbProgresstask";
+            this.lbProgresstask.Size = new System.Drawing.Size(100, 24);
+            this.lbProgresstask.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
+            // 
+            // telthemwebTime
+            // 
+            this.telthemwebTime.Enabled = true;
+            this.telthemwebTime.Tick += new System.EventHandler(this.telthemwebTime_Tick);
+            // 
             // SagePostNow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(690, 402);
+            this.ClientSize = new System.Drawing.Size(690, 424);
+            this.Controls.Add(this.stbProgress);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.cmdPostTransactions);
@@ -354,7 +415,10 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             this.Load += new System.EventHandler(this.SagePostNow_Load);
             this.groupBox4.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
+            this.stbProgress.ResumeLayout(false);
+            this.stbProgress.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -379,5 +443,12 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.StatusStrip stbProgress;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel4;
+        private System.Windows.Forms.ToolStripStatusLabel timeLabel;
+        private System.Windows.Forms.Timer telthemwebTime;
+        private System.Windows.Forms.ToolStripStatusLabel strLoading;
+        private System.Windows.Forms.ToolStripProgressBar lbProgresstask;
     }
 }

@@ -19,10 +19,19 @@ namespace Sagehill_Pallaium_Intergration_module
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
+            /*
+            |**************************************************************************************
+            |
+            |              Version 1 v1   Albert Chinyani
+            |              Maintaned by   Innocent Tauzeni
+            |
+            | **************************************************************************************
+           */
+
             /// for QuickPost Data [Tech/PostData.cs
             /// so far we are working with quick post file in Tech folder;
             /// I decided to created two setup so that we dont conflict with main form on time.
-            /// So if want to rebuild make you comment on like what i did below
+            /// So if you want to rebuild make you comment on like what i did below
 
             /// ***************************************************************************
 
@@ -35,12 +44,28 @@ namespace Sagehill_Pallaium_Intergration_module
             //Application.Run(new MainForm());
 
 
+
+
+
+
+            /*
+             |**************************************************************************************
+             |                                 Version 2 Upgrade 2022
+             |                                 Code Restructuring and upgrade new features
+             |                                 Innocent Tauzeni  & Brendon Songore
+             |                                 
+             | **************************************************************************************
+            */
             //Integration Testing
             //Application.Run(new InterTestingPrazPalladium_v2());
 
             //live
             Application.Run(new AsynDataPusher_v2());
-            
+
+            //Quick POST
+            //Application.Run(new SagePostNow());
+
+
         }
     }
 }

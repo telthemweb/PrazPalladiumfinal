@@ -27,7 +27,7 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
         private void button11_Click(object sender, EventArgs e)
         {
             string message = "Are suew you want to exit?";
-            string title = "Close Application";
+            string title = "Sagehill Business Solutions";
             MessageBoxButtons buttons = MessageBoxButtons.YesNo;
             DialogResult result = MessageBox.Show(message, title, buttons, MessageBoxIcon.Information);
             if (result == DialogResult.Yes)
@@ -99,7 +99,10 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
 
         private void SagePostNow_Load(object sender, EventArgs e)
         {
-
+            telthemwebTime.Enabled = true;
+            telthemwebTime.Start();
+            
+            
         }
 
         private void fyPostTransactions_Click(object sender, EventArgs e)
@@ -137,6 +140,32 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
         {
             SettingsPanel sp = new SettingsPanel();
             sp.ShowDialog();
+        }
+
+        private void telthemwebTime_Tick(object sender, EventArgs e)
+        {
+            timeLabel.Text = DateTime.Now.ToString("hh:mm:ss");
+        }
+
+        private void toolStripStatusLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void telthembgWorker_DoWork(object sender, DoWorkEventArgs e)
+        {
+
+            
+        }
+
+        private void telthembgWorker_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            
+        }
+
+        private void telthembgWorker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+            
         }
     }
 }

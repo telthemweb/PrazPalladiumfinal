@@ -1,2 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<customers />
+<customers>
+  <customer>
+    <number>PE-2021-45</number>
+    <name>Chivi RDC</name>
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+  </customer>
+</customers>

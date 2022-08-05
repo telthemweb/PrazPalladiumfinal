@@ -2,6 +2,7 @@
 using Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2.WriteXML_V2;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Data;
 using System.IO;
 using System.Linq;
@@ -25,6 +26,7 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2
         PalladiumSoftware.Integration.Enquiries enquiries = new PalladiumSoftware.Integration.Enquiries();
         
 
+
         public void getAllCustomerEntitesFromPortal(string searchvalue)
         {
             try
@@ -43,6 +45,7 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2
                 }
 
                 DataTable dt = new DataTable();
+               
                 dt = DatabasePrazPalladiumDTO.Retrieve(customerEntitesssql);
 
                 if (dt == null)
@@ -61,13 +64,14 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2
                         writer.WriteLine("\n\n\n");
 
                         writer.WriteLine("===============POWERED BY SAGEHILL DEVELOPERS ===========================\n\n\n");
-
+                        writer.Close();
                     }
                 }
                 else
                 {
                     //Static Function to write Tender Invoices 
                     CustomerEntitiesComponent.writeCutomerEntitiestXml(dt);
+                    TransactionsPrazPortalLogDTO.writeCustomerFile(dt);
                 }
             }
             catch (Exception ex)
@@ -84,7 +88,7 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2
                     writer.WriteLine(ex.StackTrace);
                     writer.WriteLine("\n\n\n");
                     writer.WriteLine("===============POWERED BY SAGEHILL DEVELOPERS ===========================\n\n\n");
-
+                    writer.Close();
                 }
             }
         }
@@ -111,6 +115,7 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2
                 using (StreamWriter writer = new StreamWriter(FilePath, true))
                 {
                     writer.WriteLine(response);
+                    writer.Close();
                 }
 
             }
@@ -128,7 +133,7 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2
                     writer.WriteLine(ex.StackTrace);
                     writer.WriteLine("\n\n\n");
                     writer.WriteLine("===============POWERED BY SAGEHILL DEVELOPERS ===========================\n\n\n");
-
+                    writer.Close();
                 }
 
             }

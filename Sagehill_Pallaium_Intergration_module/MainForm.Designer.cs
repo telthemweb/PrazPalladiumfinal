@@ -253,8 +253,6 @@ namespace Sagehill_Pallaium_Intergration_module
         }
 
         #endregion
-
-        private System.Windows.Forms.MenuStrip MainMenuStrip;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem versionToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -273,6 +271,7 @@ namespace Sagehill_Pallaium_Intergration_module
         private System.Windows.Forms.ToolStripMenuItem databaseToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem databaseConfigurationsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem databaseConfigurationsToolStripMenuItem1;
+        public new System.Windows.Forms.MenuStrip MainMenuStrip;
     }
 }
 

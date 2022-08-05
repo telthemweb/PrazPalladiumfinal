@@ -354,14 +354,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sagehill_Pallaium_Intergration_module.exe" size="1375232">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sagehill_Pallaium_Intergration_module.exe" size="1415168">
       <assemblyIdentity name="Sagehill_Pallaium_Intergration_module" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>FQGemxjyv/F9hHsyITOER0JJwD3QGt+hUgU3XJlg5e4=</dsig:DigestValue>
+        <dsig:DigestValue>TUCpJbBFS11MY2ZzcB7Yi88yyN5AnPyyqwAuJZmCzos=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

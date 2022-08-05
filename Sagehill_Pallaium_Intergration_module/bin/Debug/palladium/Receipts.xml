@@ -1,2 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<receipts />
+<receipts>
+  <receipt>
+    <custNumber>PR21973718847</custNumber>
+    <docNo>rpt20201126177</docNo>
+    <docDate>8/5/2022 2:19:21 AM</docDate>
+    <tenderType>internal</tenderType>
+    <intAccount>
+    </intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>0</receiptAmount>
+    <deposit />
+    <total>0</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-20201119825</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>0</amount>
+      </line>
+    </lines>
+  </receipt>
+</receipts>

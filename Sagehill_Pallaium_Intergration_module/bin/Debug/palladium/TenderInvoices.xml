@@ -1,2 +1,77 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<documents />
+<documents>
+  <document>
+    <docNo>T202171820</docNo>
+    <docDate>8/5/2022 2:19:21 AM</docDate>
+    <currencyCode>ZWL</currencyCode>
+    <custNumber>PR8623609002</custNumber>
+    <shipTo>Procurement Regulatory Authority of Zimbabwe 9th Floor Pearl House 61 Samora Machel Avenue Harare</shipTo>
+    <reference>TENDER INVOICE</reference>
+    <subTotal>150000</subTotal>
+    <discountPerc />
+    <tax />
+    <total>150000</total>
+    <salesName>Portal</salesName>
+    <additionalInfo>TENDER_INVOICE</additionalInfo>
+    <term>COD</term>
+    <lines>
+      <line>
+        <lineNo>1</lineNo>
+        <partNumber>MOJLPA03/2021</partNumber>
+        <partDesc>BIDBOND</partDesc>
+        <location>DEFAULT</location>
+        <qty>1</qty>
+        <unitOfMeasure>EA</unitOfMeasure>
+        <type />
+        <isTaxInclusive>False</isTaxInclusive>
+        <unitPrice>150000</unitPrice>
+        <taxCode />
+        <lineTotal>150000</lineTotal>
+        <binids>
+          <bin>
+            <bincode>DEFAULT</bincode>
+            <quantity>1</quantity>
+          </bin>
+        </binids>
+      </line>
+      <line>
+        <lineNo>2</lineNo>
+        <partNumber>MOJLPA03/2021</partNumber>
+        <partDesc>BIDBOND</partDesc>
+        <location>DEFAULT</location>
+        <qty>1</qty>
+        <unitOfMeasure>EA</unitOfMeasure>
+        <type />
+        <isTaxInclusive>False</isTaxInclusive>
+        <unitPrice>150000</unitPrice>
+        <taxCode />
+        <lineTotal>150000</lineTotal>
+        <binids>
+          <bin>
+            <bincode>DEFAULT</bincode>
+            <quantity>1</quantity>
+          </bin>
+        </binids>
+      </line>
+      <line>
+        <lineNo>3</lineNo>
+        <partNumber>MOJLPA03/2021</partNumber>
+        <partDesc>BIDBOND</partDesc>
+        <location>DEFAULT</location>
+        <qty>1</qty>
+        <unitOfMeasure>EA</unitOfMeasure>
+        <type />
+        <isTaxInclusive>False</isTaxInclusive>
+        <unitPrice>150000</unitPrice>
+        <taxCode />
+        <lineTotal>150000</lineTotal>
+        <binids>
+          <bin>
+            <bincode>DEFAULT</bincode>
+            <quantity>1</quantity>
+          </bin>
+        </binids>
+      </line>
+    </lines>
+  </document>
+</documents>

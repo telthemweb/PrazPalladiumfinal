@@ -60,13 +60,14 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2
                         writer.WriteLine("\n\n\n");
 
                         writer.WriteLine("===============POWERED BY SAGEHILL DEVELOPERS ===========================\n\n\n");
-
+                        writer.Close();
                     }
                 }
                 else
                 {
                     //Static Function to write receipts xml 
                     ReceiptComponent.writeReceiptXml(dt);
+                    TransactionsPrazPortalLogDTO.writeReceiptsFile(dt);
                 }
             }
             catch (Exception ex)
@@ -83,7 +84,7 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2
                     writer.WriteLine(ex.StackTrace);
                     writer.WriteLine("\n\n\n");
                     writer.WriteLine("===============POWERED BY SAGEHILL DEVELOPERS ===========================\n\n\n");
-
+                    writer.Close();
                 }
             }
         }
@@ -111,6 +112,7 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2
                 using (StreamWriter writer = new StreamWriter(FilePath, true))
                 {
                     writer.WriteLine(response);
+                    writer.Close();
                 }
 
             }
@@ -129,7 +131,7 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2
                     writer.WriteLine(ex.StackTrace);
                     writer.WriteLine("\n\n\n");
                     writer.WriteLine("===============POWERED BY SAGEHILL DEVELOPERS ===========================\n\n\n");
-
+                    writer.Close();
                 }
             }
 

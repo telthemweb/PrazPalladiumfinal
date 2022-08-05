@@ -1,0 +1,26 @@
+====TODAY SUPPLIER INVOICES RECORDS   DATE:  Friday, August 5, 2022======  TIME:  4:06:47 AM
+
+
+
+InvoiceNo  2019122019579  | DocDate   8/5/2022 2:19:21 AM  | Currency Code  ZWL  | Customer Number   PR1527479016   |Reference    SUPPLIER INVOICE     |total   $1750
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=========================END==========================
+
+
+
+
+
+

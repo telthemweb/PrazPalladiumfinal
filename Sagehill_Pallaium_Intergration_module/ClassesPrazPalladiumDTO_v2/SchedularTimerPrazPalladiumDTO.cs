@@ -1,26 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Configuration;
-using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Configuration;
 
-namespace Sagehill_Pallaium_Intergration_module.ClassesDb
+namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2
 {
-
-
-    class SchedulerPrazPalludiumDTO
+    class SchedularTimerPrazPalladiumDTO
     {
         Configuration schedularconfig;
-        public SchedulerPrazPalludiumDTO()
+        public SchedularTimerPrazPalladiumDTO()
         {
             schedularconfig = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
         }
 
-
-
         //Get connection string from App.Config file
+
+
         public string GetScheduleString(string key)
         {
             string result = "";
@@ -30,22 +27,9 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesDb
                 result = appSettings[key] ?? "0";
                 Console.WriteLine(result);
             }
-            catch (ConfigurationErrorsException ex)
+            catch (ConfigurationErrorsException)
             {
-                var CurrentDirectory = Directory.GetCurrentDirectory();
-                var errorFileName = DateTime.Now.ToString("ddMMyyyy") + "_customer_error_log.txt";
-                var erroFilePath = CurrentDirectory + @"/innoandbrendo/databaseerrorlogs/config/" + errorFileName;
-                using (StreamWriter writer = new StreamWriter(erroFilePath, true))
-                {
-                    writer.WriteLine("===============TODAY ERROR DETAILS   DATE:  " + DateTime.Now.ToLongDateString() + "===========================  TIME:  " + DateTime.Now.ToLongTimeString() + "\n\n\n");
-                    writer.WriteLine(ex.Message);
-                    writer.WriteLine("\n\n\n");
-                    writer.WriteLine("=======================ERROR DETAILS===========================\n\n\n");
-                    writer.WriteLine(ex.StackTrace);
-                    writer.WriteLine("\n\n\n");
-                    writer.WriteLine("===============POWERED BY SAGEHILL DEVELOPERS ===========================\n\n\n");
-
-                }
+                Console.WriteLine("Error reading app settings");
             }
             return result;
 
@@ -59,15 +43,19 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesDb
             schedularconfig.AppSettings.Settings.Add("sc_minutes", sage_minutes);
             schedularconfig.AppSettings.Settings.Add("sc_secs", sage_seconds);
             schedularconfig.Save(ConfigurationSaveMode.Modified);
+
             // Force a reload of a changed section.
             ConfigurationManager.RefreshSection("sagehillSchedular_module");
         }
+
+
 
         //Save connection string to App.config file
         public void AddUpdateAppSettings(string key, string value)
         {
             try
             {
+
                 var settings = schedularconfig.AppSettings.Settings;
                 if (settings[key] == null)
                 {
@@ -85,5 +73,23 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesDb
                 Console.WriteLine("Error writing app settings");
             }
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }

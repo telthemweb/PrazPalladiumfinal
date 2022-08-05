@@ -46,7 +46,7 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
         {
             RegistryKey reg = Registry.CurrentUser.CreateSubKey("SOFTWARE\\Microsoft\\windows\\CurrentVersion\\Run", true);
             reg.DeleteValue("Palladium_integration for Sagehill", false);
-            MessageBox.Show("App Permission has been removed from the registry", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("App Permission has been removed from the registry", "Sagehill Business Solutions", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
 
@@ -54,7 +54,7 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
         {
             RegistryKey reg = Registry.CurrentUser.CreateSubKey("SOFTWARE\\Microsoft\\windows\\CurrentVersion\\Run", true);
             reg.SetValue("Palladium_integration for Sagehill", Application.ExecutablePath.ToString());
-            MessageBox.Show("App Permission has been granted successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("App Permission has been granted successfully!", "Sagehill Business Solutions", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
 
@@ -64,7 +64,18 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             var supplier = DateTime.Now.ToString("ddMMyyyy") + "_vendors_transaction.txt";
             var CurrentDirectory = Directory.GetCurrentDirectory();
             var pathdat = CurrentDirectory + @"\innoandbrendo\portaldatatransactions\customersuppliers\" + supplier;
-            Process.Start(pathdat);
+            if (File.Exists(pathdat))
+            {
+                Process.Start(pathdat);
+            }
+            else
+            {
+                string message = "No file found";
+                string title = "Sagehill Business Solutions";
+                MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+                MessageBox.Show(message, title, buttons, MessageBoxIcon.Error);
+
+            }
         }
 
         private void ckCustomerententies_CheckedChanged(object sender, EventArgs e)
@@ -72,7 +83,18 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             var customerer = DateTime.Now.ToString("ddMMyyyy") + "_custumer_transaction.txt";
             var CurrentDirectory = Directory.GetCurrentDirectory();
             var pathdat = CurrentDirectory + @"\innoandbrendo\portaldatatransactions\customersuppliers\" + customerer;
-            Process.Start(pathdat);
+            if (File.Exists(pathdat))
+            {
+                Process.Start(pathdat);
+            }
+            else
+            {
+                string message = "No file found";
+                string title = "Sagehill Business Solutions";
+                MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+                MessageBox.Show(message, title, buttons, MessageBoxIcon.Error);
+
+            }
         }
 
         private void ckSupplInvoislog_CheckedChanged(object sender, EventArgs e)
@@ -80,7 +102,18 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             var supplierinvoices = DateTime.Now.ToString("ddMMyyyy") + "_supplierinvoices_transaction.txt";
             var CurrentDirectory = Directory.GetCurrentDirectory();
             var pathdat = CurrentDirectory + @"\innoandbrendo\portaldatatransactions\invoices\" + supplierinvoices;
-            Process.Start(pathdat);
+            if (File.Exists(pathdat))
+            {
+                Process.Start(pathdat);
+            }
+            else
+            {
+                string message = "No file found";
+                string title = "Sagehill Business Solutions";
+                MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+                MessageBox.Show(message, title, buttons, MessageBoxIcon.Error);
+
+            }
         }
 
         private void ckTenderInvoicelog_CheckedChanged(object sender, EventArgs e)
@@ -88,7 +121,18 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             var tenderinvoices = DateTime.Now.ToString("ddMMyyyy") + "_tenderinvoices_transaction.txt";
             var CurrentDirectory = Directory.GetCurrentDirectory();
             var pathdat = CurrentDirectory + @"\innoandbrendo\portaldatatransactions\invoices\" + tenderinvoices;
-            Process.Start(pathdat);
+            if (File.Exists(pathdat))
+            {
+                Process.Start(pathdat);
+            }
+            else
+            {
+                string message = "No file found";
+                string title = "Sagehill Business Solutions";
+                MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+                MessageBox.Show(message, title, buttons, MessageBoxIcon.Error);
+
+            }
         }
 
         private void ckReceiptslog_CheckedChanged(object sender, EventArgs e)
@@ -96,7 +140,18 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             var receipts = DateTime.Now.ToString("ddMMyyyy") + "_receipts_transaction.txt";
             var CurrentDirectory = Directory.GetCurrentDirectory();
             var pathdat = CurrentDirectory + @"\innoandbrendo\portaldatatransactions\receipt\" + receipts;
-            Process.Start(pathdat);
+            if (File.Exists(pathdat))
+            {
+                Process.Start(pathdat);
+            }
+            else
+            {
+                string message = "No file found";
+                string title = "Sagehill Business Solutions";
+                MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+                MessageBox.Show(message, title, buttons, MessageBoxIcon.Error);
+
+            }
         }
 
         private void checkBox5_CheckedChanged(object sender, EventArgs e)
@@ -105,7 +160,19 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             var supplier = DateTime.Now.ToString("ddMMyyyy") + "_vendor_payload_log.txt";
             var CurrentDirectory = Directory.GetCurrentDirectory();
             var pathdat = CurrentDirectory + @"\innoandbrendo\" + supplier;
-            Process.Start(pathdat);
+            if (File.Exists(pathdat))
+            {
+                Process.Start(pathdat);
+            }
+            else
+            {
+                string message = "No file found";
+                string title = "Sagehill Business Solutions";
+                MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+                MessageBox.Show(message, title, buttons, MessageBoxIcon.Error);
+                
+            }
+            
         }
 
         private void checkBox4_CheckedChanged(object sender, EventArgs e)
@@ -114,7 +181,18 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             var customer = DateTime.Now.ToString("ddMMyyyy") + "_customer_payload_log.txt";
             var CurrentDirectory = Directory.GetCurrentDirectory();
             var pathdat = CurrentDirectory + @"\innoandbrendo\" + customer;
-            Process.Start(pathdat);
+            if (File.Exists(pathdat))
+            {
+                Process.Start(pathdat);
+            }
+            else
+            {
+                string message = "No file found";
+                string title = "Sagehill Business Solutions";
+                MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+                MessageBox.Show(message, title, buttons, MessageBoxIcon.Error);
+
+            }
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -122,7 +200,18 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             var receipts = DateTime.Now.ToString("ddMMyyyy") + "_receipt_payload_log.txt";
             var CurrentDirectory = Directory.GetCurrentDirectory();
             var pathdat = CurrentDirectory + @"\innoandbrendo\" + receipts;
-            Process.Start(pathdat);
+            if (File.Exists(pathdat))
+            {
+                Process.Start(pathdat);
+            }
+            else
+            {
+                string message = "No file found";
+                string title = "Sagehill Business Solutions";
+                MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+                MessageBox.Show(message, title, buttons, MessageBoxIcon.Error);
+
+            }
         }
 
         private void checkBox3_CheckedChanged(object sender, EventArgs e)
@@ -130,7 +219,18 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             var SupplerInvoices = DateTime.Now.ToString("ddMMyyyy") + "_SupplerInvoices_payload_log.txt";
             var CurrentDirectory = Directory.GetCurrentDirectory();
             var pathdat = CurrentDirectory + @"\innoandbrendo\" + SupplerInvoices;
-            Process.Start(pathdat);
+            if (File.Exists(pathdat))
+            {
+                Process.Start(pathdat);
+            }
+            else
+            {
+                string message = "No file found";
+                string title = "Sagehill Business Solutions";
+                MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+                MessageBox.Show(message, title, buttons, MessageBoxIcon.Error);
+
+            }
         }
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
@@ -138,7 +238,18 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             var _tenderInvoice = DateTime.Now.ToString("ddMMyyyy") + "_tenderInvoice_payload_log.txt";
             var CurrentDirectory = Directory.GetCurrentDirectory();
             var pathdat = CurrentDirectory + @"\innoandbrendo\" + _tenderInvoice;
-            Process.Start(pathdat);
+            if (File.Exists(pathdat))
+            {
+                Process.Start(pathdat);
+            }
+            else
+            {
+                string message = "No file found";
+                string title = "Sagehill Business Solutions";
+                MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+                MessageBox.Show(message, title, buttons, MessageBoxIcon.Error);
+
+            }
         }
 
         private void ckSystemlogs_CheckedChanged(object sender, EventArgs e)
@@ -146,7 +257,134 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             var SupplerInvoices = DateTime.Now.ToString("ddMMyyyy") + "_database_transaction_error.txt";
             var CurrentDirectory = Directory.GetCurrentDirectory();
             var pathdat = CurrentDirectory + @"\innoandbrendo\databaseerrorlogs\" + SupplerInvoices;
-            Process.Start(pathdat);
+            if (File.Exists(pathdat))
+            {
+                Process.Start(pathdat);
+            }
+            else
+            {
+                string message = "No file found";
+                string title = "Sagehill Business Solutions";
+                MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+                MessageBox.Show(message, title, buttons, MessageBoxIcon.Error);
+
+            }
+        }
+
+        private void btnSchedule_Click(object sender, EventArgs e)
+        {
+            TimerSchedular ts = new TimerSchedular();
+            ts.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            SagePostNow sd = new SagePostNow();
+            sd.ShowDialog();
+        }
+
+        private void checkBox10_CheckedChanged(object sender, EventArgs e)
+        {
+            //payload
+            var supplier = DateTime.Now.ToString("ddMMyyyy") + "_supplier_data.txt";
+            var CurrentDirectory = Directory.GetCurrentDirectory();
+            var pathdat = CurrentDirectory + @"\innoandbrendo\recordspulled\customerandsuppliers\" + supplier;
+            if (File.Exists(pathdat))
+            {
+                Process.Start(pathdat);
+            }
+            else
+            {
+                string message = "No file found";
+                string title = "Sagehill Business Solutions";
+                MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+                MessageBox.Show(message, title, buttons, MessageBoxIcon.Error);
+
+            }
+        }
+
+        private void checkBox9_CheckedChanged(object sender, EventArgs e)
+        {
+            //payload
+            var customerer = DateTime.Now.ToString("ddMMyyyy") + "_customer_data.txt";
+            var CurrentDirectory = Directory.GetCurrentDirectory();
+            var pathdat = CurrentDirectory + @"\innoandbrendo\recordspulled\customerandsuppliers\" + customerer;
+            if (File.Exists(pathdat))
+            {
+                Process.Start(pathdat);
+            }
+            else
+            {
+                string message = "No file found";
+                string title = "Sagehill Business Solutions";
+                MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+                MessageBox.Show(message, title, buttons, MessageBoxIcon.Error);
+
+            }
+        }
+
+        private void checkBox6_CheckedChanged(object sender, EventArgs e)
+        {
+            var receipts = DateTime.Now.ToString("ddMMyyyy") + "_receipt_data.txt";
+            var CurrentDirectory = Directory.GetCurrentDirectory();
+            var pathdat = CurrentDirectory + @"\innoandbrendo\recordspulled\receipts\" + receipts;
+            if (File.Exists(pathdat))
+            {
+                Process.Start(pathdat);
+            }
+            else
+            {
+                string message = "No file found";
+                string title = "Sagehill Business Solutions";
+                MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+                MessageBox.Show(message, title, buttons, MessageBoxIcon.Error);
+
+            }
+        }
+
+        private void checkBox8_CheckedChanged(object sender, EventArgs e)
+        {
+            //payload
+            var supplierinvoices = DateTime.Now.ToString("ddMMyyyy") + "_supplier_invoices_data.txt";
+            var CurrentDirectory = Directory.GetCurrentDirectory();
+            var pathdat = CurrentDirectory + @"\innoandbrendo\recordspulled\invoices\" + supplierinvoices;
+            if (File.Exists(pathdat))
+            {
+                Process.Start(pathdat);
+            }
+            else
+            {
+                string message = "No file found";
+                string title = "Sagehill Business Solutions";
+                MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+                MessageBox.Show(message, title, buttons, MessageBoxIcon.Error);
+
+            }
+        }
+
+        private void checkBox7_CheckedChanged(object sender, EventArgs e)
+        {
+            //payload
+            var tenderinvoices = DateTime.Now.ToString("ddMMyyyy") + "_tender_invoices_data.txt";
+            var CurrentDirectory = Directory.GetCurrentDirectory();
+            var pathdat = CurrentDirectory + @"\innoandbrendo\recordspulled\invoices\" + tenderinvoices;
+            if (File.Exists(pathdat))
+            {
+                Process.Start(pathdat);
+            }
+            else
+            {
+                string message = "No file found";
+                string title = "Sagehill Business Solutions";
+                MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+                MessageBox.Show(message, title, buttons, MessageBoxIcon.Error);
+
+            }
         }
     }
 }

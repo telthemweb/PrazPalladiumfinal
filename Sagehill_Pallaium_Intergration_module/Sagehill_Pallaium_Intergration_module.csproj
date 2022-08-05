@@ -210,10 +210,13 @@
     <Compile Include="ClassesPrazPalladiumDTO_v2\DatabasePrazPalladiumDTO.cs" />
     <Compile Include="ClassesPrazPalladiumDTO_v2\LoggerDataPrazPalludiumDTO.cs" />
     <Compile Include="ClassesPrazPalladiumDTO_v2\ReceiptPrazPalladiumDTO.cs" />
-    <Compile Include="ClassesPrazPalladiumDTO_v2\SchedulerPrazPalludiumDTO.cs" />
+    <Compile Include="ClassesPrazPalladiumDTO_v2\SchedularTimerPrazPalladiumDTO.cs" />
+    <Compile Include="ClassesPrazPalladiumDTO_v2\SchedulerService.cs" />
     <Compile Include="ClassesPrazPalladiumDTO_v2\SupplierAccountPrazPalladiumDTO.cs" />
     <Compile Include="ClassesPrazPalladiumDTO_v2\SupplierInvPrazPalladiumDTO.cs" />
+    <Compile Include="ClassesPrazPalladiumDTO_v2\TaskSchedularPrazPalladiumDTO.cs" />
     <Compile Include="ClassesPrazPalladiumDTO_v2\TenderInvPrazPalladiumDTO.cs" />
+    <Compile Include="ClassesPrazPalladiumDTO_v2\TransactionsPrazPortalLogDTO.cs" />
     <Compile Include="ClassesPrazPalladiumDTO_v2\WriteXML_V2\CustomerEntitiesComponent.cs" />
     <Compile Include="ClassesPrazPalladiumDTO_v2\WriteXML_V2\ReceiptComponent.cs" />
     <Compile Include="ClassesPrazPalladiumDTO_v2\WriteXML_V2\SupplierAccountComponent.cs" />
@@ -260,6 +263,12 @@
     <Compile Include="PalladiumDataPusher_v2\SettingsPanel.Designer.cs">
       <DependentUpon>SettingsPanel.cs</DependentUpon>
     </Compile>
+    <Compile Include="PalladiumDataPusher_v2\TimerSchedular.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PalladiumDataPusher_v2\TimerSchedular.Designer.cs">
+      <DependentUpon>TimerSchedular.cs</DependentUpon>
+    </Compile>
     <Compile Include="PalladiumIntergrationClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -298,6 +307,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PalladiumDataPusher_v2\SettingsPanel.resx">
       <DependentUpon>SettingsPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PalladiumDataPusher_v2\TimerSchedular.resx">
+      <DependentUpon>TimerSchedular.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

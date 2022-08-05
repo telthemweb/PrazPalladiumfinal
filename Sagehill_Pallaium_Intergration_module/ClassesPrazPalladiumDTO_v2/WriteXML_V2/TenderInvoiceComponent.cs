@@ -155,7 +155,7 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2.Write
                         writer.WriteLine(ex.StackTrace);
                         writer.WriteLine("\n\n\n");
                         writer.WriteLine("===============POWERED BY SAGEHILL DEVELOPERS ===========================\n\n\n");
-
+                        writer.Close();
                     }
                 }
             }//end of outer forloop
@@ -170,6 +170,7 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2.Write
                 writer.WriteLine("======================  TENDER INVOICES TRANSACTION FROM PORTAL   DATE:  " + DateTime.Now.ToLongDateString() + "===========================\n\n\n");
                 writer.WriteLine("Tender Invoices  Data have been pulled from Portal at:     " + DateTime.Now.ToShortTimeString() + "\n\n\n");
                 writer.WriteLine("======================POWERED BY SAGEHILL DEVELOPERS ===========================\n\n\n");
+                writer.Close();
             }
         }
     }

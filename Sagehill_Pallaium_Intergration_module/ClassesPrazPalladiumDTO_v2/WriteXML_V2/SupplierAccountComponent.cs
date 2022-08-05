@@ -52,6 +52,7 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2.Write
                 writer.WriteLine("======================  SUPPLIERS TRANSACTION FROM PORTAL   DATE:  " + DateTime.Now.ToLongDateString() + "===========================\n\n\n");
                 writer.WriteLine("Supplier Data have been pulled from Portal at:   " + DateTime.Now.ToShortTimeString() + "\n\n\n");
                 writer.WriteLine("======================POWERED BY SAGEHILL DEVELOPERS ===========================\n\n\n");
+                writer.Close();
             }
             //END FOR LOOP
         }
