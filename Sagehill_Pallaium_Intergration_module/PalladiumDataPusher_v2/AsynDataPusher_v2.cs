@@ -26,7 +26,10 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             InitializeComponent();
         }
 
-        
+        public void MyTimer(object sender, System.Timers.ElapsedEventArgs e)
+        {
+
+        }
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -44,7 +47,7 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             var s = int.Parse(schedularsetting.GetScheduleString("sc_secs"));
 
             int hr, min, sc;
-            if (h == null && m == null && s == null)
+            if (string.IsNullOrEmpty(h.ToString()) &&  string.IsNullOrEmpty(m.ToString()) && string.IsNullOrEmpty(s.ToString()))
             {
                 hr = 0;
                 min = 0;
@@ -59,12 +62,20 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
 
             //add task schedule 
 
-            TaskSchedularPrazPalladiumDTO.IntervalInHours(hr, min, sc, () =>
-             {
-                 PullDataFromPortal();
-                 PostDataFromPortal();
+            //TaskSchedularPrazPalladiumDTO.IntervalInSeconds(hr, min, sc, () =>
+            // {
+            //     PullDataFromPortal();
+            //     //PostDataFromPortal();
 
-             });
+            // });
+
+            TaskSchedularPrazPalladiumDTO.IntervalInHours(hr, min, sc, () =>
+            {
+                PullDataFromPortal();
+                //Thread.Sleep(1000);
+                PostDataFromPortal();
+
+            });
         }
 
 
@@ -74,7 +85,9 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
 
             customer.getAllCustomerEntitesFromPortal("");
             supplier.getAllSupplierAccountFromPortal("");
-            
+            supplier.getAllCustomerAccountFromPortal("");
+
+
 
             supplierInvoice.getAllSupplerInvoicesFromPortal("");
             tenderInvoice.getAllTenderInvoicesFromPortal("");
@@ -90,12 +103,14 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
         private void PostDataFromPortal()
         {
             var xmlCustomerentities = @"palladium/customers.xml";
+            var xmlvendorCustomerentities = @"palladium/vendor_customer.xml";
             var xmlvendor = @"palladium/vendors.xml";
             var xmlsupplerInvoice = @"palladium/SupplierInvoices.xml";
             var xmlTenderInvoices = @"palladium/TenderInvoices.xml";
             var xmlReceipts = @"palladium/Receipts.xml";
 
             customer.PostAllCustomerEntitestoPalladium(xmlCustomerentities);
+            customer.PostAllSuppliersCustomerEntitestoPalladium(xmlvendorCustomerentities);
             
 
 

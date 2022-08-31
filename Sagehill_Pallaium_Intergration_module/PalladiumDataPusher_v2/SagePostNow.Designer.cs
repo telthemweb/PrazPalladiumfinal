@@ -33,6 +33,7 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SagePostNow));
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.fyReceipts = new System.Windows.Forms.Button();
             this.fyTendInvoices = new System.Windows.Forms.Button();
             this.fySupInvoices = new System.Windows.Forms.Button();
@@ -57,6 +58,7 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             this.strLoading = new System.Windows.Forms.ToolStripStatusLabel();
             this.lbProgresstask = new System.Windows.Forms.ToolStripProgressBar();
             this.telthemwebTime = new System.Windows.Forms.Timer(this.components);
+            this.button3 = new System.Windows.Forms.Button();
             this.groupBox4.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.stbProgress.SuspendLayout();
@@ -75,6 +77,7 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.button2);
             this.groupBox4.Controls.Add(this.fyReceipts);
             this.groupBox4.Controls.Add(this.fyTendInvoices);
             this.groupBox4.Controls.Add(this.fySupInvoices);
@@ -90,13 +93,27 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Filter  by year";
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Gray;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(336, 122);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(150, 35);
+            this.button2.TabIndex = 18;
+            this.button2.Text = "Vendors and Customer";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // fyReceipts
             // 
             this.fyReceipts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.fyReceipts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.fyReceipts.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.fyReceipts.ForeColor = System.Drawing.Color.White;
-            this.fyReceipts.Location = new System.Drawing.Point(336, 98);
+            this.fyReceipts.Location = new System.Drawing.Point(336, 81);
             this.fyReceipts.Name = "fyReceipts";
             this.fyReceipts.Size = new System.Drawing.Size(150, 35);
             this.fyReceipts.TabIndex = 17;
@@ -193,6 +210,7 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.cmdReceipts);
             this.groupBox1.Controls.Add(this.cmdTendInvoices);
@@ -223,7 +241,7 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             this.cmdReceipts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cmdReceipts.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.cmdReceipts.ForeColor = System.Drawing.Color.White;
-            this.cmdReceipts.Location = new System.Drawing.Point(493, 47);
+            this.cmdReceipts.Location = new System.Drawing.Point(493, 23);
             this.cmdReceipts.Name = "cmdReceipts";
             this.cmdReceipts.Size = new System.Drawing.Size(150, 35);
             this.cmdReceipts.TabIndex = 18;
@@ -394,6 +412,20 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             this.telthemwebTime.Enabled = true;
             this.telthemwebTime.Tick += new System.EventHandler(this.telthemwebTime_Tick);
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Gray;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(493, 64);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(150, 35);
+            this.button3.TabIndex = 19;
+            this.button3.Text = "Vendors and Customer";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // SagePostNow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -411,7 +443,7 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             this.MaximizeBox = false;
             this.Name = "SagePostNow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "QUICK POST";
+            this.Text = "CONTROL PANEL";
             this.Load += new System.EventHandler(this.SagePostNow_Load);
             this.groupBox4.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
@@ -450,5 +482,7 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
         private System.Windows.Forms.Timer telthemwebTime;
         private System.Windows.Forms.ToolStripStatusLabel strLoading;
         private System.Windows.Forms.ToolStripProgressBar lbProgresstask;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }

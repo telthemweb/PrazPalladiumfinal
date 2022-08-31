@@ -124,12 +124,14 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
         */
 
             var xmlCustomerentities = @"palladium/customers.xml";
+            var xmlvendorCustomerentities = @"palladium/vendor_customer.xml";
             var xmlvendor = @"palladium/vendors.xml";
             var xmlsupplerInvoice = @"palladium/SupplierInvoices.xml";
             var xmlTenderInvoices = @"palladium/TenderInvoices.xml";
             var xmlReceipts = @"palladium/Receipts.xml";
 
             customer.PostAllCustomerEntitestoPalladium(xmlCustomerentities);
+            customer.PostAllSuppliersCustomerEntitestoPalladium(xmlvendorCustomerentities);
             supplier.PostToPalladiumSupplierAccount(xmlvendor);
             supplierInvoice.PostToPalladiumSupplerInvoices(xmlsupplerInvoice);
             tenderInvoice.PostToPalladiumTenderInvoice(xmlTenderInvoices);
@@ -166,6 +168,16 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
         private void telthembgWorker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            supplier.getAllCustomerAccountFromPortal(cmbYear.Text);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            supplier.getAllCustomerAccountFromPortal("");
         }
     }
 }

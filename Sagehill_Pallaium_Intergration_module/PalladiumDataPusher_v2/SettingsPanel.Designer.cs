@@ -101,9 +101,9 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(12, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 30);
+            this.label2.Size = new System.Drawing.Size(181, 30);
             this.label2.TabIndex = 8;
-            this.label2.Text = "Setup";
+            this.label2.Text = "Control Panel";
             // 
             // groupBox1
             // 

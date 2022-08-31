@@ -1,11 +1,223 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <customers>
   <customer>
+    <number>PE-2021-01</number>
+    <name>Agribank Harare</name>
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </customer>
+  <customer>
+    <number>PE-2021-02</number>
+    <name>Agricultural Marketing Authority</name>
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </customer>
+  <customer>
+    <number>PE-2021-03</number>
+    <name>Air Zimbabwe</name>
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </customer>
+  <customer>
+    <number>PE-2021-04</number>
+    <name>Allied Timbers</name>
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </customer>
+  <customer>
+    <number>PE-2021-05</number>
+    <name>ARDA</name>
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </customer>
+  <customer>
+    <number>PE-2021-06</number>
+    <name>Aurex</name>
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </customer>
+  <customer>
+    <number>PE-2021-11</number>
+    <name>Beitbridge RDC</name>
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </customer>
+  <customer>
+    <number>PE-2021-14</number>
+    <name>Bikita RDC</name>
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </customer>
+  <customer>
+    <number>PE-2021-16</number>
+    <name>Bindura Provincial Hospital</name>
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </customer>
+  <customer>
+    <number>PE-2021-17</number>
+    <name>Bindura RDC</name>
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </customer>
+  <customer>
+    <number>PE-2021-24</number>
+    <name>Bulawayo City</name>
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </customer>
+  <customer>
+    <number>PE-2021-28</number>
+    <name>Chaminuka RDC</name>
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </customer>
+  <customer>
+    <number>PE-2021-29</number>
+    <name>Chegutu Municipality</name>
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </customer>
+  <customer>
+    <number>PE-2021-30</number>
+    <name>Chegutu RDC</name>
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </customer>
+  <customer>
+    <number>PE-2021-31</number>
+    <name>Chikomba RDC</name>
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </customer>
+  <customer>
+    <number>PE-2021-32</number>
+    <name>Chimanimani RDC</name>
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </customer>
+  <customer>
+    <number>PE-2021-39</number>
+    <name>Chiredzi Town Council</name>
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </customer>
+  <customer>
+    <number>PE-2021-40</number>
+    <name>Chirumanzu RDC</name>
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </customer>
+  <customer>
+    <number>PE-2021-43</number>
+    <name>Chitungwiza Municipality</name>
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </customer>
+  <customer>
     <number>PE-2021-45</number>
     <name>Chivi RDC</name>
     <phone />
     <cell />
     <email />
     <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
   </customer>
 </customers>

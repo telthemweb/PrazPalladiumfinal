@@ -114,9 +114,9 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             this.label3.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(209, 24);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 22);
+            this.label3.Size = new System.Drawing.Size(70, 22);
             this.label3.TabIndex = 45;
-            this.label3.Text = "Seconds";
+            this.label3.Text = "Internal";
             // 
             // txtMinutes
             // 

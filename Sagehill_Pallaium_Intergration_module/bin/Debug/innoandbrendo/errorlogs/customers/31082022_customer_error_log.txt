@@ -1,0 +1,23 @@
+===============TODAY ERROR DETAILS   DATE:  Wednesday, August 31, 2022===========================  TIME:  1:38:58 PM
+
+
+
+No settings could be found. Please use the Palladium Integration Configuration Tool to create settings.
+
+
+
+
+=======================ERROR DETAILS===========================
+
+
+
+   at PalladiumSoftware.Integration.Maintenance.ProcessCustomers(String settingName, String xmlString)
+   at Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2.CustomerPrazPalladiumEntitiesDTO.PostAllCustomerEntitestoPalladium(String filename) in C:\Users\TI\Desktop\projects\sagehill\palladium-master\Sagehill_Pallaium_Intergration_module\ClassesPrazPalladiumDTO_v2\CustomerPrazPalladiumEntitiesDTO.cs:line 110
+
+
+
+
+===============POWERED BY SAGEHILL DEVELOPERS ===========================
+
+
+

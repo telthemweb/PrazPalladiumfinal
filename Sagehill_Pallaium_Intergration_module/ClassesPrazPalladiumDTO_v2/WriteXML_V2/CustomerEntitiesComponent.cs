@@ -28,9 +28,17 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2.Write
                 var cell = doc.CreateElement("cell");
                 var email = doc.CreateElement("email");
                 var street1 = doc.CreateElement("street1");
+                var invoiceWorkflowNew = doc.CreateElement("invoiceWorkflowNew");
+                var invoiceWorkflowDA = doc.CreateElement("invoiceWorkflowDA");
+                var invoiceWorkflowSO = doc.CreateElement("invoiceWorkflowSO");
+
+
 
                 number.InnerText = row["regnumber"].ToString();
                 name.InnerText = row["name"].ToString();
+                invoiceWorkflowNew.InnerText = "1";
+                invoiceWorkflowDA.InnerText = "1";
+                invoiceWorkflowSO.InnerText = "1";
 
 
                 customer.AppendChild(number);
@@ -39,6 +47,9 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2.Write
                 customer.AppendChild(cell);
                 customer.AppendChild(email);
                 customer.AppendChild(street1);
+                customer.AppendChild(invoiceWorkflowNew);
+                customer.AppendChild(invoiceWorkflowDA);
+                customer.AppendChild(invoiceWorkflowSO);
 
                 // customer.AppendChild(street2);
 

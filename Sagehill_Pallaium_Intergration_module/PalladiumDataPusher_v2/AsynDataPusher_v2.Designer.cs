@@ -34,11 +34,11 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.stStatusMenuApp = new System.Windows.Forms.StatusStrip();
-            this.tmTelthemweb = new System.Windows.Forms.Timer(this.components);
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.labelTimer = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.tmTelthemweb = new System.Windows.Forms.Timer(this.components);
             this.stStatusMenuApp.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -81,10 +81,6 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             this.stStatusMenuApp.TabIndex = 3;
             this.stStatusMenuApp.Text = "statusStrip1";
             // 
-            // tmTelthemweb
-            // 
-            this.tmTelthemweb.Tick += new System.EventHandler(this.tmTelthemweb_Tick);
-            // 
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
@@ -116,6 +112,10 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             this.toolStripStatusLabel4.Size = new System.Drawing.Size(161, 19);
             this.toolStripStatusLabel4.Text = "                                 Running...";
             // 
+            // tmTelthemweb
+            // 
+            this.tmTelthemweb.Tick += new System.EventHandler(this.tmTelthemweb_Tick);
+            // 
             // AsynDataPusher_v2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -130,7 +130,7 @@ namespace Sagehill_Pallaium_Intergration_module.PalladiumDataPusher_v2
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "AsynDataPusher_v2";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Data Pusher";
             this.Load += new System.EventHandler(this.AsynDataPusher_v2_Load);
             this.stStatusMenuApp.ResumeLayout(false);

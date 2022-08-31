@@ -1,6 +1,78 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <vendors>
   <vendor>
+    <number>praz20191</number>
+    <name>Anixsys pvt ltd</name>
+    <city />
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </vendor>
+  <vendor>
+    <number>PR9905492</number>
+    <name>PRAZ PVT LTD</name>
+    <city />
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </vendor>
+  <vendor>
+    <number>PR5019493</number>
+    <name>Jmcd Enterprises (Private) Limited</name>
+    <city />
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </vendor>
+  <vendor>
+    <number>PR5317524</number>
+    <name>Mist Mountain Safaris T/A LG Harrison</name>
+    <city />
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </vendor>
+  <vendor>
+    <number>PR5463535</number>
+    <name>Zimbabwe Defence Industries (Private) Limited</name>
+    <city />
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </vendor>
+  <vendor>
+    <number>PR5608156</number>
+    <name>Agri Info Services (Private) Limited</name>
+    <city />
+    <phone />
+    <cell />
+    <email />
+    <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
+  </vendor>
+  <vendor>
     <number>PR5755637</number>
     <name>Alysash Enterprises (Private) Limited  T/A Linen And Extra</name>
     <city />
@@ -8,5 +80,8 @@
     <cell />
     <email />
     <street1 />
+    <invoiceWorkflowNew>1</invoiceWorkflowNew>
+    <invoiceWorkflowDA>1</invoiceWorkflowDA>
+    <invoiceWorkflowSO>1</invoiceWorkflowSO>
   </vendor>
 </vendors>

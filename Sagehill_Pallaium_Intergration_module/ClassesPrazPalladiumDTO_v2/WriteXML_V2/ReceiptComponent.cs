@@ -23,6 +23,8 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2.Write
             foreach (DataRow row in dt.Rows)
             {
                 var outerInvId = row["invoicenumber"].ToString();
+                var dtoacounttype = row["type"].ToString();
+                if(dtoacounttype== "CONTRACT FEE" || dtoacounttype == "BIDBOND" || dtoacounttype == "SPOC" || dtoacounttype == "ESTABLISHMENT FEE") { 
                 if (!string.IsNullOrEmpty(outerInvId) && !string.IsNullOrWhiteSpace(outerInvId))
                 {
                     var receipt = doc.CreateElement("receipt");
@@ -49,29 +51,14 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2.Write
                     docNo.InnerText = row["receiptnumber"].ToString();
                     docDate.InnerText = row["receiptdate"].ToString();
                     string accounttype = row["type"].ToString();
-                   ;
+                  
 
 
                     tenderType.InnerText = row["method"].ToString();
                     var accountNumber = "";
 
 
-                    //c account
-
-                    //Registrations and Renewals:              4010-0000      Registrations & Renewals
-                    //SPOC                                     4045-0000      SPOC Fees
-                    //Bid Establishment Fees:                  4015-0000      Bid Establishment Fees
-                    //Contract Fees:                           4005-0000      Contract Fees
-                    //Training Fees:                           4095-0000      Training Fees
-                    // Certification & Accreditation           4096-0000      Certification & Accreditation
-                    //Exhibitions & Partnerships:              4090-0000      Advertisements & Partnerships
-                    //Request for Exemptions:                  4040-0000      Exemption fees by Entities
-                    //Application to Conduct                   4025-0000      Class A Authority to Conduct
-                    //                                         4030-0000      Class B Authority to Conduct
-                    //                                         4035-0000      Class C Authority to Conduct
-                    //WBS                                      4075-0000      Whistle Blowing – Annual Subscriptions
-                    //                                         4080-0000      Whistle Blowing – PE Registrations
-
+                   
 
                     if (accounttype == "CONTRACT FEE")
                     {
@@ -86,33 +73,13 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2.Write
                     else if (accounttype == "ESTABLISHMENT FEE")
                     {
                         //roomfor change
-                        accountNumber = "";
+                        accountNumber = "4015-0000";
                     }
-                    else if (accounttype == "SUPPLIER")
-                    {
-                        //roomfor change
-                        accountNumber = "";
-                    }
-
+                  
                     else if (accounttype == "BIDBOND")
                     {
                         //roomfor change
-                        accountNumber = "";
-                    }
-                    else if (accounttype == "NONREFUNDABLE")
-                    {
-                        //roomfor change
-                        accountNumber = "";
-                    }
-                    else if (accounttype == "REFUNDABLE")
-                    {
-                        //roomfor change
-                        accountNumber = "";
-                    }
-                    else
-                    {
-                        //roomfor change
-                        accountNumber = "";
+                        accountNumber = "4015-0000";
                     }
 
 
@@ -146,7 +113,9 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2.Write
                     receipt.AppendChild(lines);
                     receipts.AppendChild(receipt);
                 }
-                
+
+                }//check type
+
             }
             doc.Save(@"palladium/Receipts.xml");
             var CurrentDirectory = Directory.GetCurrentDirectory();

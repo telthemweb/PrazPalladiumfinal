@@ -1,23 +1,2202 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <receipts>
   <receipt>
-    <custNumber>PR21973718847</custNumber>
-    <docNo>rpt20201126177</docNo>
-    <docDate>8/5/2022 2:19:21 AM</docDate>
-    <tenderType>internal</tenderType>
-    <intAccount>
-    </intAccount>
+    <custNumber>PR5019493</custNumber>
+    <docNo>rpt20207855</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>ecocash</tenderType>
+    <intAccount>4045-0000</intAccount>
     <comment>Paid</comment>
     <department />
     <exchangeRate />
-    <receiptAmount>0</receiptAmount>
+    <receiptAmount>3500</receiptAmount>
     <deposit />
-    <total>0</total>
+    <total>3500</total>
     <lines>
       <line>
-        <invoiceDocNo>IN-20201119825</invoiceDocNo>
+        <invoiceDocNo>IN-2020719727</invoiceDocNo>
         <discountTaken>0.0</discountTaken>
-        <amount>0</amount>
+        <amount>3500</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR5019493</custNumber>
+    <docNo>rpt20207863</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>onemoney</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>5000</receiptAmount>
+    <deposit />
+    <total>5000</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-2020719732</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>5000</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR5019493</custNumber>
+    <docNo>rpt20207855</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>ecocash</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>4000</receiptAmount>
+    <deposit />
+    <total>4000</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-2020719727</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>4000</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR5019493</custNumber>
+    <docNo>rpt20207855</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>ecocash</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>5000</receiptAmount>
+    <deposit />
+    <total>5000</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-2020719727</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>5000</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR5019493</custNumber>
+    <docNo>rpt20207855</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>ecocash</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>5000</receiptAmount>
+    <deposit />
+    <total>5000</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-2020719727</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>5000</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR5019493</custNumber>
+    <docNo>rpt20207863</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>onemoney</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>2000</receiptAmount>
+    <deposit />
+    <total>2000</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-2020719732</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>2000</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR5463535</custNumber>
+    <docNo>rpt2020115128</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>internal</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>10000</receiptAmount>
+    <deposit />
+    <total>10000</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-202011519778</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>10000</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR99822618845</custNumber>
+    <docNo>rpt20201116160</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>internal</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>5000</receiptAmount>
+    <deposit />
+    <total>5000</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-2020111619813</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>5000</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR99822618845</custNumber>
+    <docNo>rpt20201116161</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>internal</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>10000</receiptAmount>
+    <deposit />
+    <total>10000</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-2020111619813</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>10000</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR64784033294</custNumber>
+    <docNo>rpt2022649311059</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T20223238417333789</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR64784033294</custNumber>
+    <docNo>rpt2022813533789</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>350</receiptAmount>
+    <deposit />
+    <total>350</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022303533789</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>350</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR64784033294</custNumber>
+    <docNo>rpt2022683033789</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>5500</receiptAmount>
+    <deposit />
+    <total>5500</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T202274933789</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>5500</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR3855134513</custNumber>
+    <docNo>rpt2022291635021</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>500</receiptAmount>
+    <deposit />
+    <total>500</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022375235021</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>500</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR24793417572</custNumber>
+    <docNo>rpt2022800811972</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4005-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>900</receiptAmount>
+    <deposit />
+    <total>900</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022145317980</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>900</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR31270030437</custNumber>
+    <docNo>rpt202215130907</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>350</receiptAmount>
+    <deposit />
+    <total>350</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022129130907</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>350</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR31270030437</custNumber>
+    <docNo>rpt2022534930907</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>50</receiptAmount>
+    <deposit />
+    <total>50</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022868930907</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>50</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR31270030437</custNumber>
+    <docNo>rpt2022150030907</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>350</receiptAmount>
+    <deposit />
+    <total>350</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022868930907</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>350</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR78578730520</custNumber>
+    <docNo>rpt202286930990</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>350</receiptAmount>
+    <deposit />
+    <total>350</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022757930990</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>350</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR35975225378</custNumber>
+    <docNo>rpt2022253625817</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>350</receiptAmount>
+    <deposit />
+    <total>350</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022860325817</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>350</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR71698622361</custNumber>
+    <docNo>rpt2022713422796</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>350</receiptAmount>
+    <deposit />
+    <total>350</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022169322796</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>350</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR1436722357</custNumber>
+    <docNo>rpt2022550222792</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>350</receiptAmount>
+    <deposit />
+    <total>350</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022953222792</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>350</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR626636738</custNumber>
+    <docNo>rpt2022390736738</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>350</receiptAmount>
+    <deposit />
+    <total>350</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022455536738</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>350</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR831836928</custNumber>
+    <docNo>rpt2022430436928</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022788436928</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR634136937</custNumber>
+    <docNo>rpt2022928136937</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>350</receiptAmount>
+    <deposit />
+    <total>350</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022136936937</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>350</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR634136937</custNumber>
+    <docNo>rpt2022746736937</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>50</receiptAmount>
+    <deposit />
+    <total>50</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022975836937</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>50</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR634136937</custNumber>
+    <docNo>rpt202267036937</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>300</receiptAmount>
+    <deposit />
+    <total>300</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022975836937</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>300</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR19043230620</custNumber>
+    <docNo>rpt2022787731093</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022768431093</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR554036929</custNumber>
+    <docNo>rpt202271236929</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>350</receiptAmount>
+    <deposit />
+    <total>350</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022486536929</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>350</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR670236934</custNumber>
+    <docNo>rpt2022957536934</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022182136934</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR59796620455</custNumber>
+    <docNo>rpt2022598020890</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>350</receiptAmount>
+    <deposit />
+    <total>350</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022415420890</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>350</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR281436831</custNumber>
+    <docNo>rpt2022112536831</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>200</receiptAmount>
+    <deposit />
+    <total>200</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022729436831</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>200</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR281436831</custNumber>
+    <docNo>rpt2022700836831</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>2500</receiptAmount>
+    <deposit />
+    <total>2500</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022228936831</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>2500</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR728837490</custNumber>
+    <docNo>rpt2022231537490</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>200</receiptAmount>
+    <deposit />
+    <total>200</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022139337490</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>200</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR626636738</custNumber>
+    <docNo>rpt202255836738</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>50</receiptAmount>
+    <deposit />
+    <total>50</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022719736738</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>50</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR281436831</custNumber>
+    <docNo>rpt2022100013041</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>150</receiptAmount>
+    <deposit />
+    <total>150</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022116136831</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>150</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR281436831</custNumber>
+    <docNo>rpt2022270113041</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>200</receiptAmount>
+    <deposit />
+    <total>200</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022116136831</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>200</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR728837490</custNumber>
+    <docNo>rpt2022803137490</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>350</receiptAmount>
+    <deposit />
+    <total>350</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T202252537490</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>350</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR59796620455</custNumber>
+    <docNo>rpt2022428420890</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4005-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>600</receiptAmount>
+    <deposit />
+    <total>600</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022366620890</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>600</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR61069425312</custNumber>
+    <docNo>rpt2022746725751</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>20</receiptAmount>
+    <deposit />
+    <total>20</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022494225751</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>20</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR61069425312</custNumber>
+    <docNo>rpt2022930013503</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>380</receiptAmount>
+    <deposit />
+    <total>380</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022494225751</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>380</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR78578730520</custNumber>
+    <docNo>rpt2022301530990</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022446030990</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR78578730520</custNumber>
+    <docNo>rpt2022819530990</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022554330990</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR1436722357</custNumber>
+    <docNo>rpt2022499622792</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022873622792</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR89005022356</custNumber>
+    <docNo>rpt2022614222791</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022371022791</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR35975225378</custNumber>
+    <docNo>rpt202263625817</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T20227125817</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR35975225378</custNumber>
+    <docNo>rpt2022363825817</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T202295425817</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR84280030519</custNumber>
+    <docNo>rpt2022639830989</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T202218130989</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR56389022366</custNumber>
+    <docNo>rpt2022854322801</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022825622801</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR91383431852</custNumber>
+    <docNo>rpt2022824832335</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>200</receiptAmount>
+    <deposit />
+    <total>200</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022756832335</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>200</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR28103530981</custNumber>
+    <docNo>rpt2022382631455</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>10</receiptAmount>
+    <deposit />
+    <total>10</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T202253231455</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>10</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR28103530981</custNumber>
+    <docNo>rpt2022467631455</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>1090</receiptAmount>
+    <deposit />
+    <total>1090</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T202253231455</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>1090</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR28103530981</custNumber>
+    <docNo>rpt2022973831455</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>50</receiptAmount>
+    <deposit />
+    <total>50</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022161831455</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>50</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR28103530981</custNumber>
+    <docNo>rpt2022928731455</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>150</receiptAmount>
+    <deposit />
+    <total>150</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022161831455</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>150</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR91383431852</custNumber>
+    <docNo>rpt2022751513666</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022953932335</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR91383431852</custNumber>
+    <docNo>rpt2022374013665</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>1100</receiptAmount>
+    <deposit />
+    <total>1100</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022104232335</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>1100</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR28103530981</custNumber>
+    <docNo>rpt2022163931455</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>50</receiptAmount>
+    <deposit />
+    <total>50</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022499431455</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>50</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR28103530981</custNumber>
+    <docNo>rpt2022988631455</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>200</receiptAmount>
+    <deposit />
+    <total>200</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022499431455</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>200</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR692537680</custNumber>
+    <docNo>rpt2022381837680</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>1100</receiptAmount>
+    <deposit />
+    <total>1100</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T202215137680</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>1100</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR692537680</custNumber>
+    <docNo>rpt202293937680</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>200</receiptAmount>
+    <deposit />
+    <total>200</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022495437680</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>200</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR692537680</custNumber>
+    <docNo>rpt2022468137680</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>200</receiptAmount>
+    <deposit />
+    <total>200</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022302537680</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>200</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR692537680</custNumber>
+    <docNo>rpt2022470637680</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>200</receiptAmount>
+    <deposit />
+    <total>200</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022302537680</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>200</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR28103530981</custNumber>
+    <docNo>rpt2022457631455</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>150</receiptAmount>
+    <deposit />
+    <total>150</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022499431455</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>150</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR28103530981</custNumber>
+    <docNo>rpt2022542531455</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>10</receiptAmount>
+    <deposit />
+    <total>10</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022284431455</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>10</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR28103530981</custNumber>
+    <docNo>rpt2022224231455</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>1090</receiptAmount>
+    <deposit />
+    <total>1090</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022284431455</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>1090</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR28103530981</custNumber>
+    <docNo>rpt202253531455</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>200</receiptAmount>
+    <deposit />
+    <total>200</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022319931455</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>200</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR28103530981</custNumber>
+    <docNo>rpt2022732831455</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>200</receiptAmount>
+    <deposit />
+    <total>200</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022697331455</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>200</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR28103530981</custNumber>
+    <docNo>rpt2022249631455</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>200</receiptAmount>
+    <deposit />
+    <total>200</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022697331455</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>200</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR41800734834</custNumber>
+    <docNo>rpt2022743335344</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022502435344</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR404438234</custNumber>
+    <docNo>rpt2022995638234</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022905638234</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR843638237</custNumber>
+    <docNo>rpt2022573338237</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022623738237</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR867038238</custNumber>
+    <docNo>rpt2022718038238</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022191638238</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR83938241</custNumber>
+    <docNo>rpt2022180138241</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022838038241</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR837038322</custNumber>
+    <docNo>rpt2022492038322</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022817738322</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR37910624913</custNumber>
+    <docNo>rpt2022382625352</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022548425352</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR371138236</custNumber>
+    <docNo>rpt2022976038236</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022430238236</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR202138239</custNumber>
+    <docNo>rpt2022376438239</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022990238239</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR177438217</custNumber>
+    <docNo>rpt202214413711</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022986438217</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR55642122405</custNumber>
+    <docNo>rpt2022934322840</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022127222840</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR23378634890</custNumber>
+    <docNo>rpt2022332035400</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022239135400</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR263638385</custNumber>
+    <docNo>rpt2022743238385</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T202277938385</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR263638385</custNumber>
+    <docNo>rpt2022311838385</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022660338385</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR701838235</custNumber>
+    <docNo>rpt2022806438235</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022140838235</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR45335222360</custNumber>
+    <docNo>rpt2022767322795</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022684222795</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR805338351</custNumber>
+    <docNo>rpt2022486638351</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022314338351</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR56389022366</custNumber>
+    <docNo>rpt2022649222801</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022266922801</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR1436722357</custNumber>
+    <docNo>rpt2022400322792</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022499622792</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR69047134775</custNumber>
+    <docNo>rpt2022177335285</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022253335285</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR831836928</custNumber>
+    <docNo>rpt2022324736928</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022532836928</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR31270030437</custNumber>
+    <docNo>rpt202225530907</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>50</receiptAmount>
+    <deposit />
+    <total>50</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022428130907</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>50</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR31270030437</custNumber>
+    <docNo>rpt2022550430907</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>350</receiptAmount>
+    <deposit />
+    <total>350</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022428130907</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>350</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR47838430626</custNumber>
+    <docNo>rpt2022381931099</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022626631099</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR794738804</custNumber>
+    <docNo>rpt2022164438804</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T202287538804</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR71088535378</custNumber>
+    <docNo>rpt202270435891</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4005-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>1500</receiptAmount>
+    <deposit />
+    <total>1500</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022164735891</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>1500</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR28103530981</custNumber>
+    <docNo>rpt2022863031455</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022264431455</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR28103530981</custNumber>
+    <docNo>rpt2022790831455</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>10</receiptAmount>
+    <deposit />
+    <total>10</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022614331455</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>10</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR28103530981</custNumber>
+    <docNo>rpt2022566931455</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>10</receiptAmount>
+    <deposit />
+    <total>10</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022614331455</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>10</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR28103530981</custNumber>
+    <docNo>rpt2022400631455</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>200</receiptAmount>
+    <deposit />
+    <total>200</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022992631455</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>200</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR28103530981</custNumber>
+    <docNo>rpt2022150714431</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4015-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>850</receiptAmount>
+    <deposit />
+    <total>850</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022614331455</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>850</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR34781134747</custNumber>
+    <docNo>rpt2022239335257</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022535135257</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR34781134747</custNumber>
+    <docNo>rpt2022412135257</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>300</receiptAmount>
+    <deposit />
+    <total>300</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022425235257</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>300</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR34781134747</custNumber>
+    <docNo>rpt2022367814464</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>100</receiptAmount>
+    <deposit />
+    <total>100</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022425235257</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>100</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR52716632586</custNumber>
+    <docNo>rpt2022230214495</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>350</receiptAmount>
+    <deposit />
+    <total>350</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022325633072</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>350</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR52716632586</custNumber>
+    <docNo>rpt2022142514495</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>50</receiptAmount>
+    <deposit />
+    <total>50</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022325633072</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>50</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR603238610</custNumber>
+    <docNo>rpt2022169138610</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022428338610</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR50239711068</custNumber>
+    <docNo>rpt2022913411261</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>388</receiptAmount>
+    <deposit />
+    <total>388</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022624711261</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>388</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR50239711068</custNumber>
+    <docNo>rpt2022980214545</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>12</receiptAmount>
+    <deposit />
+    <total>12</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022624711261</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>12</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR108539103</custNumber>
+    <docNo>rpt2022638014524</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022499039103</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR39777634860</custNumber>
+    <docNo>rpt2022893614563</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>400</receiptAmount>
+    <deposit />
+    <total>400</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022448935370</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>400</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR31270030437</custNumber>
+    <docNo>rpt2022216530907</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>50</receiptAmount>
+    <deposit />
+    <total>50</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022141530907</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>50</amount>
+      </line>
+    </lines>
+  </receipt>
+  <receipt>
+    <custNumber>PR31270030437</custNumber>
+    <docNo>rpt202212630907</docNo>
+    <docDate>8/31/2022 10:42:51 AM</docDate>
+    <tenderType>suspense</tenderType>
+    <intAccount>4045-0000</intAccount>
+    <comment>Paid</comment>
+    <department />
+    <exchangeRate />
+    <receiptAmount>350</receiptAmount>
+    <deposit />
+    <total>350</total>
+    <lines>
+      <line>
+        <invoiceDocNo>IN-T2022141530907</invoiceDocNo>
+        <discountTaken>0.0</discountTaken>
+        <amount>350</amount>
       </line>
     </lines>
   </receipt>

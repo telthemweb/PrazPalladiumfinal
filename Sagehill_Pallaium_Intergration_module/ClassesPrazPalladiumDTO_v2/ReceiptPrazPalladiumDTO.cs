@@ -12,7 +12,7 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2
 {
     class ReceiptPrazPalladiumDTO
     {
-        private String settingName = "TestSetting";
+        //private String settingName = "TestSetting";
         PalladiumSoftware.Integration.Maintenance maintenance = new PalladiumSoftware.Integration.Maintenance();
         PalladiumSoftware.Integration.Documents documents = new PalladiumSoftware.Integration.Documents();
         PalladiumSoftware.Integration.Enquiries enquiries = new PalladiumSoftware.Integration.Enquiries();
@@ -104,7 +104,7 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2
             {
 
                 string xmlString = System.IO.File.ReadAllText(filename);
-                string response = documents.ProcessReceipts(settingName, xmlString);
+                string response = documents.ProcessReceipts("TestSetting", xmlString);
                 Console.WriteLine(response);
                 var CurrentDirectory = Directory.GetCurrentDirectory();
                 var FileName = DateTime.Now.ToString("ddMMyyyy") + "_receipts_payload_log.txt";

@@ -216,13 +216,42 @@ namespace Sagehill_Pallaium_Intergration_module.ClassesPrazPalladiumDTO_v2
 
         }
 
+        
+
+        public static void writeSupplierCustomerFile(DataTable dataTable)
+        {
+            try
+            {
 
 
+                //Open the File
+                var _customer_data = DateTime.Now.ToString("ddMMyyyy") + "_supplier_customer_data.txt";
+                var CurrentDirectory = Directory.GetCurrentDirectory();
+                var pathdat = CurrentDirectory + @"\innoandbrendo\recordspulled\customerandsuppliers\" + _customer_data;
+
+                StreamWriter sw = new StreamWriter(pathdat, true, Encoding.ASCII);
+                sw.WriteLine("===============TODAY CUSTOMER RECORDS   DATE:  " + DateTime.Now.ToLongDateString() + "==================  TIME:  " + DateTime.Now.ToLongTimeString() + "\n\n\n");
+
+                foreach (DataRow row in dataTable.Rows)
+                {
+                    var vcnumber = row["regnumber"].ToString();
+                    var name = row["name"].ToString();
+
+                    sw.WriteLine("Reg Number  " + vcnumber + "  | Company Name   " + name, Environment.NewLine);
+                }
+                sw.WriteLine("\n\n\n\n\n\n");
+                sw.WriteLine("\n\n\n\n\n\n");
+                sw.WriteLine("=======================================END====================================\n\n\n\n\n\n");
 
 
+                sw.Close();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
 
-
-
+        }
 
     }
 }
